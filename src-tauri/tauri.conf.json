@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "mtEduManual",
-    "version": "5.6.1-0"
+    "version": "5.6.1"
   },
   "tauri": {
     "allowlist": {
