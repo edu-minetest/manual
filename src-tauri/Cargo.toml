@@ -1,9 +1,9 @@
 [package]
-name = "sitemanual"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
+name = "mtedu_manual"
+version = "5.6.1"
+description = "Minetest Education Manual"
+authors = ["snowyu.lee@gmail.com"]
+license = "MIT"
 repository = ""
 edition = "2021"
 rust-version = "1.57"
