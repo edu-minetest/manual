@@ -39,7 +39,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "Minetest Education Edition Manual",
       "targets": "all",
       "windows": {
         "webviewInstallMode": {
