@@ -13,7 +13,7 @@
     "packages/site-shared"
   ],
   "scripts": {
-    "ci": "mv out dist"
+    "ci": "mv src dist"
   },
   "dependencies": {
   }
