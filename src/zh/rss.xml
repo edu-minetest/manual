@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://edu.ihom.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>开源莽兜世界:教育版</title>
+    <link>https://edu.ihom.app/zh/</link>
+    <description>一款面向教育的开源免费积木式沙盒互动应用，类似《我的世界:教育版》✨&lt;br/&gt;通过🎮玩游戏激发创造性的包容性学习。探索虚拟积木世界，解锁解决任何学科或挑战的新方法✨</description>
+    <language>zh-CN</language>
+    <pubDate>Tue, 27 Sep 2022 23:46:06 GMT</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2022 23:46:06 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>模组</category>
+    <category>内置</category>
+    <category>指南</category>
+    <category>家长/教师</category>
+    <category>FAQ</category>
+    <category>快速上手</category>
+    <category>游戏</category>
+    <item>
+      <title>课程</title>
+      <link>https://edu.ihom.app/zh/courses/</link>
+      <guid>https://edu.ihom.app/zh/courses/</guid>
+      <source url="https://edu.ihom.app/rss.xml">课程</source>
+      <pubDate>Wed, 31 Aug 2022 12:24:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>火镰(火石与划片)</title>
+      <link>https://edu.ihom.app/zh/courses/flint/</link>
+      <guid>https://edu.ihom.app/zh/courses/flint/</guid>
+      <source url="https://edu.ihom.app/rss.xml">火镰(火石与划片)</source>
+      <pubDate>Wed, 31 Aug 2022 12:24:06 GMT</pubDate>
+      <content:encoded><![CDATA[<p>火镰（Flint and Steel）是用来点火的工具. 火镰的基本构造是由燧石(火石)、火绒和火钢三部分组成。由于打造时把形状做成像弯弯的镰刀状与火石撞击能产生火星而得名。</p>
+<blockquote>
+<p>是一种以摩擦生热为主要原理，火钢与燧石、火绒配合使用的生火工具。
+火镰通常为高碳钢制造，长约10厘米，一侧为钝刃，另一侧为捉手。使用时，先将火绒夹在打火石上，双手分持火镰与打火石，然后使火镰刃部与燧石(火石)猛烈敲击.
+火镰与坚硬的打火石碰撞后，会有钢末溅射而出，因摩擦生热而迅速升温氧化，产生火花(Spark),接触易燃的火绒后将其点燃。</p>
+</blockquote>
+<ul>
+<li>
+<p>火钢：用一小块钢条，经热处理后，打造成镰刀形状成为火镰的主件。有的在钢条上刻有麒麟喷火、龙吞火球等各式精美图案，并把一块皮革裹在弯弯的钢条内，制成如同现代女性手里拿的小坤包样子，口上嵌有两块铁皮，其中一块带有磁性，不用时会自动把口封好，起到防止包里装的火石、艾绒等物件丢失或受潮的作用。
+<img src="@source/zh/courses/flint/steel.jpg" alt="火刚"></p>
+</li>
+<li>
+<p>燧石俗称火石.通常用花岗岩碎石（燧石），纯度较高，非常坚硬.最初藏于大山，长年风化加之山洪暴发，将其碎石冲到河滩，人们很容易捡到。</p>
+<p>不同的燧石:</p>
+<p><img src="@source/zh/courses/flint/flint.jpg" alt="燧石"></p>
+</li>
+<li>
+<p>火绒: 多为细碎的易燃物，如艾绒、碳布、某些种类的真菌、镁等.
+<img src="@source/zh/courses/flint/spark.jpg" alt="Spark"></p>
+</li>
+</ul>
+<p>在游戏中: 1块燧石 + 1个铁锭 = 1个火镰(火石与划片)</p>
+<p><img src="@source/zh/courses/flint/menu.jpg" alt="menu"></p>
+<div>
+<p>提示</p>
+<ul>
+<li>燧石多在沙砾中</li>
+<li>铁锭为铁块在熔炉中熔炼而来</li>
+</ul>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>CodeBlock - 编程</title>
+      <link>https://edu.ihom.app/zh/guide/mods/codeblock/</link>
+      <guid>https://edu.ihom.app/zh/guide/mods/codeblock/</guid>
+      <source url="https://edu.ihom.app/rss.xml">CodeBlock - 编程</source>
+      <category>模组</category>
+      <category>内置</category>
+      <pubDate>Wed, 31 Aug 2022 12:24:06 GMT</pubDate>
+      <content:encoded><![CDATA[<div>
+<p>提示</p>
+<p>使用该模组前,记得先确认已经启用该模组.</p>
+</div>
+<p>CodeBlock 允许在游戏内使用 lua 代码来建造你想要的任何东西.</p>
+<p><img src="@source/zh/guide/mods/codeblock/screenshot.jpg" alt="screenshot"></p>
+<div>
+<p>提示</p>
+<p>在物品栏中搜索 <code>code</code>,即可找到<img src="@source/zh/guide/mods/codeblock/dp.png" alt="运行">方块和<img src="@source/zh/guide/mods/codeblock/ds.png" alt="编写">方块,在创造模式(或者有<code>give</code>权限)下点击方块即可获得.
+目前由于方块没有制作配方,在生存模式下只能由家长给予.</p>
+</div>
+<p><img src="@source/zh/guide/mods/codeblock/ds.png" alt="编写">是编写代码的方块,鼠标右键(安卓是在右边操作区双击)即可打开代码编辑器.</p>
+<p>第一次使用,可以使用聊天命令<code>/codegenerate</code>获得一些例子代码.</p>
+<div>
+<p>提示</p>
+<p>如何发送聊天命令,请参阅《<a href="/zh/teacher/ingame-man/">游戏内管理:发送命令</a>》.</p>
+</div>
+<p><img src="@source/zh/guide/mods/codeblock/code-new.jpg" alt="code-new"></p>
+<p>在文件上双击可以打开对应的代码。</p>
+<p><img src="@source/zh/guide/mods/codeblock/code-edit.jpg" alt="code-edit"></p>
+<p>最后添加的一行，是调用<code>line</code>函数向前画长度是12&quot;米&quot;(约定一个方块的长度为游戏世界的一米)的一条直线，直线的材质没有指定，是随机。</p>
+<p>然后点击<code>Save</code>保存代码，然后点击<code>Load and Close</code> 加载并关闭编辑器。</p>
+<p><img src="@source/zh/guide/mods/codeblock/dp.png" alt="运行">方块就是运行方块，选择<img src="@source/zh/guide/mods/codeblock/dp.png" alt="运行">方块，然后去你想建设的地方放置(鼠标右键)好运行<img src="@source/zh/guide/mods/codeblock/dp.png" alt="运行">方块，再击打（鼠标左键）该运行<img src="@source/zh/guide/mods/codeblock/dp.png" alt="运行">方块，即可。</p>
+<div>
+<p>注意</p>
+<p>当放置运行<img src="@source/zh/guide/mods/codeblock/dp.png" alt="运行">方块时,你面向的方向,就是运行的方向。</p>
+</div>
+<p><img src="@source/zh/guide/mods/codeblock/code-run-place.jpg" alt="code-run-place"></p>
+<p><img src="@source/zh/guide/mods/codeblock/code-run.jpg" alt="code-run"></p>
+<p>最后，修改这句后，再执行看看:</p>
+<div><pre><code><span>line</span><span>(</span>forward<span>,</span> <span>12</span><span>,</span> blocks<span>.</span>air<span>)</span>
+</code></pre><div aria-hidden="true"><div></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Numeracy 数的模组</title>
+      <link>https://edu.ihom.app/zh/guide/mods/numeracy/</link>
+      <guid>https://edu.ihom.app/zh/guide/mods/numeracy/</guid>
+      <source url="https://edu.ihom.app/rss.xml">Numeracy 数的模组</source>
+      <category>模组</category>
+      <category>内置</category>
+      <pubDate>Wed, 31 Aug 2022 12:24:06 GMT</pubDate>
+      <content:encoded><![CDATA[<div>
+<p>提示</p>
+<p>使用该模组前,记得先启用该模组.</p>
+</div>
+<p>该模组添加了一个用于与孩子一起探索算术的积木，这些积木结合在一起并根据连接积木的数量改变外观，该模组的开发是受到儿童电视节目 <a href="https://www.learningblocks.tv/" target="_blank" rel="noopener noreferrer">Numberblocks</a> 的启发。</p>
+<p><img src="@source/zh/guide/mods/numeracy/num-header.jpg" alt="num-header"></p>
+<div>
+<p>提示</p>
+<p>在物品栏中搜索 <code>numeracy</code>,即可找到该方块,在创造模式(或者有<code>give</code>权限)下点击该方块即可获得.
+目前由于该方块没有制作配方,在生存模式下只能由家长给予.</p>
+</div>
+<p>从物品栏中获取“算术块”，然后开始将它们分组放置。 观察积木的外观变化和积木上方的数字变化。</p>
+<p><img src="@source/zh/guide/mods/numeracy/numeracy-group.jpg" alt="numeracy-group"></p>
+<p>尝试通过放置一连串的积木来测量两个地方之间的距离。</p>
+<p><img src="@source/zh/guide/mods/numeracy/numeracy-length.jpg" alt="numeracy-length"></p>
+<p>测量高度。</p>
+<p><img src="@source/zh/guide/mods/numeracy/numeracy-height.jpg" alt="numeracy-height"></p>
+<p>尝试用相同数量的块制作尽可能多的不同矩形或其他形状。</p>
+<p><img src="@source/zh/guide/mods/numeracy/numeracy-shape.jpg" alt="numeracy-shape"></p>
+<p>尝试探索自然数序列、矩形、平方数、立方体数、三角形数（如楼梯）。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Quiz 游戏挑战模组</title>
+      <link>https://edu.ihom.app/zh/guide/mods/quiz/</link>
+      <guid>https://edu.ihom.app/zh/guide/mods/quiz/</guid>
+      <source url="https://edu.ihom.app/rss.xml">Quiz 游戏挑战模组</source>
+      <category>模组</category>
+      <category>内置</category>
+      <pubDate>Wed, 31 Aug 2022 12:24:06 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在游戏内对游戏时间管理以及在游玩的间隙穿插练习的模组.</p>
+<p>当规定的<code>游戏时间(分钟)</code>到了后,游戏中的玩家会被踢出游戏,只有<code>休息时间(分钟)</code>到了后才能继续游戏.
+在游戏中每到<code>出题间隔(分钟)</code>时间就会出题,玩家必须回答正确才能继续游戏,回答正确玩家会得到奖励物品.</p>
+<p>要想使用该功能请确保在游戏世界(课程)上已经启用<code>quiz</code>和<code>quiz_ui</code>模组.</p>
+<div>
+<p>提示</p>
+<p>配置管理Quiz模组需要<code>quiz</code>权限,该权限可以通过聊天命令赋予自己<code>quiz</code>权限: <code>/grantme quiz</code>.
+然后执行<code>/quiz</code>聊天命令即可进入管理界面(注意该课程必须同时启用<code>quiz_ui</code>模组).</p>
+</div>
+<div>
+<p>提示</p>
+<ul>
+<li>可以对指定玩家使用<code>noquiz</code>权限,从而使得该玩家不用答题: <code>/grant &lt;player&gt; noquiz</code>.</li>
+<li>撤销玩家的不用答题<code>noquiz</code>权限: <code>/revoke &lt;player&gt; noquiz</code></li>
+</ul>
+</div>
+<div>
+<p>提示</p>
+<p>如何发送聊天命令,请参阅《<a href="/zh/guide/teacher/ingame-man/">游戏内管理:发送命令</a>》.</p>
+</div>
+<h2 id="quiz-游戏挑战模组玩家答题" tabindex="-1"> Quiz 游戏挑战模组玩家答题</h2>
+<p><img src="@source/zh/guide/mods/quiz/quiz-start.jpg" alt="Quiz Start"></p>
+<p>如果答题错误,屏幕右上角就会提示:</p>
+<p><img src="@source/zh/guide/mods/quiz/quiz-error.jpg" alt="Quiz Error"></p>
+<p>如果答题正确,就会得到奖品:</p>
+<p><img src="@source/zh/guide/mods/quiz/quiz-award.jpg" alt="quiz-award"></p>
+<h2 id="quiz-游戏挑战模组管理" tabindex="-1"> Quiz 游戏挑战模组管理</h2>
+<p>然后就可以输入聊天命令<code>/quiz</code>:</p>
+<p><img src="@source/zh/guide/mods/quiz/quiz-cmd.jpg" alt="type quiz cmd"></p>
+<p>打开管理界面,可以看到有4个标签页面</p>
+<p>第一个标签页面是<code>挑战问题列表</code>:</p>
+<h3 id="挑战问题列表" tabindex="-1"> 挑战问题列表</h3>
+<p><img src="@source/zh/guide/mods/quiz/quizzes.jpg" alt="Quizzes"></p>
+<p>在这里可以对测试的问题进行管理</p>
+<ul>
+<li>新建: 添加一个测试</li>
+<li>编辑: 编辑现有的测试(需要先选择一个测试问题)</li>
+<li>删除: 删除选中的测试</li>
+</ul>
+<div>
+<p>注意</p>
+<ul>
+<li><strong>已知问题</strong>: 在Windows系统上输入文字,只能使用英文输入法,不能使用任何<strong>中文输入法</strong>输入,否则文字输入不了.</li>
+<li>在Windows系统中输入文字请切换到<strong>英文输入法</strong>.</li>
+<li>BTW:在<code>Android</code>以及<code>Linux</code>(<code>Ubuntu</code>)下输入中文正常。</li>
+</ul>
+</div>
+<div>
+<p>提示</p>
+<p>如果在Windows系统下请直接编辑Quiz游戏挑战模组的配置文件。</p>
+</div>
+<p><img src="@source/zh/guide/mods/quiz/quiz-edit.jpg" alt="Quiz"></p>
+<p>问题类型有:</p>
+<ul>
+<li>四则运算: 随机四则运算,规则在答案里
+<ul>
+<li>标题: <code>$calc</code> 会被替换为出的四则运算题目</li>
+<li>答案: 为出题的规则,规则定义如下:
+<ul>
+<li><code>n</code>: 小写n表示 随机一位数字(0-9)</li>
+<li><code>N</code>: 大写N表示 随机非零的一位数字(1-9)</li>
+<li><code>[1-3]</code>: 随机指定了数字范围的一位数字</li>
+<li><code>[+-]</code>: 随机指定一个算术操作符</li>
+<li><code>注意</code>,除法只能是最后一个操作. 余数用至少三个点<code>...</code>与商分隔.</li>
+</ul>
+</li>
+<li>强制整数(forceInt): 针对除法,是否强制结果是整数.</li>
+</ul>
+</li>
+<li>文字: 答案是文字类型的题目
+<ul>
+<li>答案支持 <a href="https://www.lua.org/pil/20.2.html" target="_blank" rel="noopener noreferrer">Lua 字符模式匹配</a> ,如果答案是<code>模式匹配</code>字符串,那么答案必须用两个<code>/</code>包裹.</li>
+</ul>
+</li>
+<li>数值: 答案是数值类型的题目</li>
+<li>是/否: 答案是<code>true</code>/<code>false</code>的题目</li>
+<li>选择题:
+<ul>
+<li>选项: 每一行为一个选项</li>
+<li>答案: 为选项的序号(从1开始),如果是多项选择,序号之间用逗号分隔,中间不要空格.</li>
+</ul>
+</li>
+</ul>
+<p><img src="@source/zh/guide/mods/quiz/quiz-select.jpg" alt="quiz-select"></p>
+<div>
+<p>提示</p>
+<p>记住,最后必须点击<code>确认</code>按钮保存.点击<code>取消</code>则放弃修改,不会保存到文件.</p>
+</div>
+<p>第二个标签页面是<code>奖品列表</code>:</p>
+<h3 id="奖品列表" tabindex="-1"> 奖品列表</h3>
+<p><img src="@source/zh/guide/mods/quiz/awards.jpg" alt="awards"></p>
+<p>在这里可以对回答正确后的奖品进行管理,每一次回答正确后会对列表中奖品作随机抽取.</p>
+<ul>
+<li>新建: 添加一个奖品</li>
+<li>编辑: 编辑现有的奖品(需要先选择一个)</li>
+<li>删除: 删除选中的奖品</li>
+</ul>
+<p><img src="@source/zh/guide/mods/quiz/award.jpg" alt="award"></p>
+<p>第三个标签页面是<code>高级配置</code>:</p>
+<h3 id="高级配置" tabindex="-1"> 高级配置</h3>
+<p><img src="@source/zh/guide/mods/quiz/config.jpg" alt="config"></p>
+<ul>
+<li>游戏时间(分钟): 单次最长游戏时间</li>
+<li>休息时间(分钟): 强制至少休息该分钟数后才允许进入游戏</li>
+<li>出题间隔(分钟): 在游戏中每玩多少分钟后就必须答题</li>
+<li>检查间隔(秒): 内部检查答案的间隔,回答错误就重新弹出答题对话框</li>
+<li>进入后立即作答: 是否进入游戏后马上答题</li>
+<li>强制管理员休息: 是否管理员也要遵循游戏时间和休息时间</li>
+</ul>
+<h2 id="配置文件" tabindex="-1"> 配置文件</h2>
+<p>Quiz游戏挑战模组的所有参数配置信息都保存在它的配置文件中。</p>
+<div>
+<p>提示</p>
+<p>配置文件是<a href="https://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank" rel="noopener noreferrer">YAML格式</a>的纯文本。
+可以用记事本直接打开。</p>
+</div>
+<h3 id="配置文件位置" tabindex="-1"> 配置文件位置</h3>
+<p>Quiz游戏挑战模组的默认配置文件的位置在模组目录下的<code>mods/quiz/config.yml</code>中，</p>
+<p>当你在游戏中保存答题配置时候，那么这个游戏世界(课程)的配置文件是存放在世界（课程）目录下的<code>quiz_config.yml</code>文件中，该配置文件只对该游戏课程(世界)有效。</p>
+<div>
+<p>提示</p>
+<p>世界（课程）目录位置请参阅: <a href="/zh/guide/teacher/#%E5%BA%94%E7%94%A8%E7%9B%AE%E5%BD%95%E7%AE%80%E4%BB%8B">应用目录简介</a></p>
+</div>
+<h3 id="配置文件示例及说明" tabindex="-1"> 配置文件示例及说明</h3>
+<div><pre><code><span># quiz_config.yml 文件</span>
+
+<span># 当成功作答后赋予玩家的权限，默认是 "interact,shout"</span>
+<span>grant</span><span>:</span> interact<span>,</span>shout
+<span># 最长游戏时间，单位是分钟，0表示禁用</span>
+<span>totalPlayTime</span><span>:</span> <span>30</span>
+<span># 游戏后的至少休息时间，单位是分钟，0表示禁用</span>
+<span>restTime</span><span>:</span> <span>20</span>
+<span># 是否跳过已经回答正确的问题</span>
+<span># 数字表示回答正确的次数，0 表示禁用</span>
+<span>skipAnswered</span><span>:</span> <span>1</span>
+<span># 检查间隔，单位是秒</span>
+<span>checkInterval</span><span>:</span> <span>5</span>
+<span># 作答间隔时间，单位是分钟</span>
+<span>idleInterval</span><span>:</span> <span>5</span>
+<span># 游戏时间到踢出玩家的延迟时间，单位是秒</span>
+<span>kickDelay</span><span>:</span> <span>2</span>
+<span># 回答正确，给出的随机奖品</span>
+<span>awards</span><span>:</span>
+  <span># the item name to give</span>
+  <span># 名称请见： minetest_game/mods/default/nodes.lua</span>
+  <span>-</span> <span>id</span><span>:</span> coalblock
+    <span># optional, for translation</span>
+    <span>title</span><span>:</span> Coal Block
+    <span># optional, the defaults to default mod</span>
+    <span>mod</span><span>:</span> default
+    <span># the item count, optional the defaults to 1</span>
+    <span>count</span><span>:</span> <span>1</span>
+  <span>-</span> <span>id</span><span>:</span> wood
+    <span>title</span><span>:</span> Apple Wood Planks
+    <span>count</span><span>:</span> <span>3</span>
+  <span>-</span> <span>id</span><span>:</span> stone
+    <span>title</span><span>:</span> Stone
+    <span>count</span><span>:</span> <span>3</span>
+  <span>-</span> <span>id</span><span>:</span> torch
+    <span>title</span><span>:</span> Torch
+  <span>-</span> <span>id</span><span>:</span> steel_ingot
+    <span>title</span><span>:</span> Steel Ingot
+    <span>count</span><span>:</span> <span>3</span>
+<span># 问题列表</span>
+<span>quiz</span><span>:</span>
+  <span># 如果没有问题类型，默认类型是“文字”</span>
+  <span>-</span> <span>id</span><span>:</span> favorColor
+    <span>title</span><span>:</span> <span>"What's my favor color?"</span>
+    <span>answer</span><span>:</span> red
+  <span>-</span> <span>id</span><span>:</span> theYear
+    <span>title</span><span>:</span> <span>"What's the year?"</span>
+    <span>answer</span><span>:</span> <span>2021</span>
+  <span>-</span> <span>title</span><span>:</span> <span>"18/7=?"</span>
+    <span># LUA字符串模式匹配方式</span>
+    <span>answer</span><span>:</span> <span>"/^2%.%.%.+4/"</span> <span># the lua string pattern: 2...4 (three dots and more)</span>
+  <span>-</span> <span>title</span><span>:</span> <span>"$calc=?"</span>
+    <span># 四则运算类型</span>
+    <span>type</span><span>:</span> calc
+    <span># 强制除法运算的结果没有余数，是整数</span>
+    <span>forceInt</span><span>:</span> <span>true</span>
+    <span>answer</span><span>:</span> <span>"(Nn*n+n)/(Nn-n)"</span>
+  <span>-</span> <span>title</span><span>:</span> <span>"What is the part of the plant that uses light to make food?"</span>
+    <span># 选择题</span>
+    <span>type</span><span>:</span> <span>"select"</span>
+    <span>options</span><span>:</span>
+      <span>-</span> leaves
+      <span>-</span> roots
+      <span>-</span> stem
+      <span>-</span> flowers
+    <span># 序号从1开始，如果是多项选择,序号之间用逗号分隔,中间不要空格</span>
+    <span>answer</span><span>:</span> <span>1</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div>
+<p>注意</p>
+<ul>
+<li><a href="https://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank" rel="noopener noreferrer">YAML格式</a>用缩进表示层级关系，注意缩进对齐。</li>
+<li>必须是用<code>空格</code>来缩进，不能用<code>tab</code>键</li>
+</ul>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>功能模组</title>
+      <link>https://edu.ihom.app/zh/guide/mods/</link>
+      <guid>https://edu.ihom.app/zh/guide/mods/</guid>
+      <source url="https://edu.ihom.app/rss.xml">功能模组</source>
+      <pubDate>Sun, 28 Aug 2022 01:23:41 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li>模组(Mod) 是<code>修改(modifications)</code>或<code>模块(modules)</code>的缩写,用于添加或更改游戏玩法</li>
+<li>模组包(Modpack): 一个模组包（简称：“ MP”）是将mod组合在一起的一组mod。基本上，modpack只是包含实际mod目录的特殊目录。</li>
+</ul>
+<div>
+<p>请谨慎安装模组(Mod)</p>
+<p>编写得不好的模组会引起游戏/服务器崩溃</p>
+</div>
+<div>
+<p>提示</p>
+<ul>
+<li>如何为游戏开启/禁用功能模组? 请阅读《<a href="/zh/guide/teacher/outgame-man/#%E5%90%AF%E5%8A%A8%E6%B8%B8%E6%88%8F-%E4%B8%BB%E6%8C%81%E6%B8%B8%E6%88%8F">家长/教师指南-游戏外管理：启动游戏/主持游戏</a>》。</li>
+<li><code>内置模组</code>是已经集成到游戏的模组并且默认为启用的模组,如无需要可以自行选择禁用其中的模组.</li>
+<li><code>外部模组</code>则需要自行安装</li>
+</ul>
+</div>
+<p>目录:</p>
+<ul>
+<li>内置模组:
+<ul>
+<li>教育相关
+<ul>
+<li><a href="/zh/guide/mods/quiz/">Quiz 玩家挑战模组——管理模组</a></li>
+<li><a href="./numeracy">Numeracy 数的模组</a>： 数与测量</li>
+<li>🆕️️ vbots： 图形化编程（海龟)</li>
+<li>lwscratch: 图形化编程,适合不懂英文的低幼儿童</li>
+<li>🆕️️ scriptblocks2: 图形化编程</li>
+<li>🆕️️ computertest: 编程</li>
+<li><a href="/zh/guide/mods/codeblock/">CodeBlock</a>: 编程(Lua语言)</li>
+<li>🆕️️ mathplot: 绘制函数图像</li>
+<li>mesecons: 黄石电路
+<ul>
+<li><a href="https://content.minetest.net/packages/Palige/moremesecons/" target="_blank" rel="noopener noreferrer">MoreMesecons</a>: 更多的黄石电路</li>
+<li><a href="https://content.minetest.net/packages/marek/mesecons_x/" target="_blank" rel="noopener noreferrer">Mesecons Extended</a>: 黄石电路增强,自动连线</li>
+</ul>
+</li>
+<li>pipeworks: 管道支持(自动化)</li>
+<li>digilines: 数字总线(自动化)</li>
+<li>digistuff: 数字总线设备</li>
+<li>technic: 扩展机械(电力和矿石)</li>
+<li>missions: 任务(课程)设计
+<ul>
+<li>awards: 荣誉榜</li>
+<li>xp_redo: 经验值系统</li>
+</ul>
+</li>
+<li><a href="https://content.minetest.net/packages/VanessaE/basic_signs/" target="_blank" rel="noopener noreferrer">basic_signs</a>: 游戏内的文字指示牌
+<ul>
+<li>signs_lib: <a href="https://content.minetest.net/packages/VanessaE/basic_signs/" target="_blank" rel="noopener noreferrer">basic_signs</a>的依赖库</li>
+</ul>
+</li>
+<li>street_signs: 各种路标</li>
+<li>worldedit: 游戏内世界编辑器(codeblock需要)</li>
+<li>🆕️️ classroom： 在游戏中管理学生</li>
+<li>🆕️️ accountmgr: 游戏账号管理</li>
+<li>🆕️️ country flags: 各国国旗</li>
+</ul>
+</li>
+<li>基础增强
+<ul>
+<li>unified_inventory: 替换了默认的物品栏
+<ul>
+<li>unified_inventory_plus</li>
+<li>unified_inventory_themes</li>
+</ul>
+</li>
+<li>3d_armor: 为玩家增加盔甲保护
+<ul>
+<li><s>3d_armor_flyswim: 提供飞行,游泳,攀爬动画</s></li>
+</ul>
+</li>
+<li>skinsdb: 玩家皮肤(自定义玩家形象)</li>
+<li>bedrock: 基石</li>
+<li>bonemeal: 玩家骨骸</li>
+<li>unifieddyes: 染料</li>
+<li>basic_materials: “基本”材料和物品</li>
+<li>moreores: 更多矿石</li>
+<li>moreblocks: 更多方块</li>
+<li>more_chests: 更多箱子</li>
+<li>biofuel: 生物燃料</li>
+<li>wielded_light: 拿在手上火把(灯)也能发光</li>
+<li>handholds_redo: 徒手攀岩</li>
+<li>elevator: 电梯</li>
+</ul>
+</li>
+<li>基础库
+<ul>
+<li>formspecs: 基础库</li>
+<li>formspec_ast: 基础库</li>
+<li>flow: 基础库</li>
+<li>vector3: 基础库</li>
+<li>tubelib2: 基础库</li>
+<li>playerphysics: 基础库(Player Physics API)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>外部模组:</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>聊天(服务器)命令列表</title>
+      <link>https://edu.ihom.app/zh/guide/teacher/commands.html</link>
+      <guid>https://edu.ihom.app/zh/guide/teacher/commands.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">聊天(服务器)命令列表</source>
+      <pubDate>Sun, 28 Aug 2022 01:23:41 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="内置命令" tabindex="-1"> 内置命令</h2>
+<p>无论您安装的是mods还是 games，内置命令始终可用。</p>
+<h3 id="help-帮助命令" tabindex="-1"> <code>/help</code> 帮助命令</h3>
+<p>显示聊天命令或特权列表的简短文档;它也会出现在聊天记录中,如果帮助文档太长,聊天记录中显示不全,可以按<code>F10</code>键打开终端查看.</p>
+<div>
+<p>提示</p>
+<p>可以通过上下箭头显示历史命令</p>
+</div>
+<ul>
+<li><code>/help</code>: 根据服务器上的权限显示可用命令的列表</li>
+<li><code>/help &lt;命令&gt;</code>: 显示有关给定命令的简短描述。 即使您没有执行命令的权限，也可以查看命令的帮助</li>
+<li><code>/help all</code>: 根据您的权限列出服务器上可用的命令，以及每个命令的简短描述和语法参考</li>
+<li><code>/help privs</code>: 列出服务器上可能授予玩家的所有特权，并显示有关每个特权的简短描述</li>
+</ul>
+<h3 id="赋予-撤销权限命令" tabindex="-1"> 赋予/撤销权限命令</h3>
+<p>所有这些命令都要求您具有“<code>privs</code>”（操纵所有权限）或“ <code>basic_privs</code>”（操纵“<code>interact</code>”和“<code>shout</code>”权限）权限。</p>
+<ul>
+<li><code>/grant &lt;player&gt; &lt;privilege&gt;</code> -将 <code>&lt;privilege&gt;</code> 授予<code>&lt;player&gt;</code></li>
+<li><code>/grant &lt;player&gt; all</code> —将所有可用特权授予<code>&lt;player&gt;</code></li>
+<li><code>/grantme &lt;privilege&gt;</code> -给自己<code>&lt;privilege&gt;</code></li>
+<li><code>/grantme all</code> —赋予自己所有特权</li>
+<li><code>/revoke &lt;player&gt; &lt;privilege&gt;</code> —从移除</li>
+<li><code>/revoke &lt;player&gt; all</code> —移除<code>&lt;player&gt;</code>所有权限</li>
+<li><code>/revokeme &lt;privilege&gt;</code> —移除自己的<code>&lt;privilege&gt;</code>权限</li>
+<li><code>/revokeme all</code> —移除自己的所有权限</li>
+</ul>
+<h3 id="privs-查看玩家的权限命令" tabindex="-1"> <code>/privs</code> 查看玩家的权限命令</h3>
+<ul>
+<li><code>/privs [&lt;player&gt;]</code>: 显示玩家(<code>&lt;player&gt;</code>)的权限列表，如果未指定玩家，则为您自己的特权</li>
+</ul>
+<h3 id="haspriv-列出具有指定权限的在线玩家命令" tabindex="-1"> <code>/haspriv</code> 列出具有指定权限的在线玩家命令</h3>
+<ul>
+<li><code>/haspriv &lt;privilege&gt;</code>: 列出所有具有指定权限(<code>&lt;privilege&gt;</code>)的在线玩家</li>
+</ul>
+<h3 id="last-login-上次登录此服务器的日期和时间" tabindex="-1"> <code>/last-login</code> 上次登录此服务器的日期和时间</h3>
+<ul>
+<li><code>/last-login [&lt;player&gt;]</code>: 显示玩家<code>&lt;player&gt;</code>上次登录此服务器时区的日期和时间 (<a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time" target="_blank" rel="noopener noreferrer">UTC 时区</a>, <a href="https://en.wikipedia.org/wiki/ISO_8601" target="_blank" rel="noopener noreferrer">ISO 8601</a> 格式)。如果未指定玩家，则显示您自己的上次登录时间</li>
+</ul>
+<h3 id="聊天" tabindex="-1"> 聊天</h3>
+<p>这些命令需要“<code>shout</code>”特权才能工作。</p>
+<h4 id="msg-私聊命令" tabindex="-1"> <code>/msg</code> 私聊命令</h4>
+<ul>
+<li><code>/msg &lt;player&gt; &lt;message&gt;</code>: 向指定玩家<code>&lt;player&gt;</code>发送直接消息<code>&lt;message&gt;</code>；其他玩家看不到。</li>
+</ul>
+<div>
+<p>注意</p>
+<p>该消息并不是真正的秘密。任何人拦截网络流量，服务器操作员原则上仍可以阅读</p>
+</div>
+<h4 id="me-命令" tabindex="-1"> <code>/me</code> 命令</h4>
+<ul>
+<li><code>/me &lt;action&gt;</code> —以“<code>* &lt;您的名字&gt; &lt;动作&gt;</code>”的格式制作文本，出现在聊天记录中。例如“<code>/me eats pizza.</code>” 会变成 “<code>* Alfred eats pizza.</code>” (如果你的玩家名称是 “Alfred”)，这里为你做了一次转换.</li>
+</ul>
+<h3 id="物品" tabindex="-1"> 物品</h3>
+<h4 id="give-和-giveme-给予物品命令" tabindex="-1"> <code>/give</code> 和 <code>/giveme</code> 给予物品命令</h4>
+<ul>
+<li><code>/give &lt;player&gt; &lt;itemstring&gt; [&lt;count&gt; [&lt;wear&gt;]]</code>: 给予玩家<code>&lt;player&gt;</code>指定数量<code>&lt;count&gt;</code>(默认是1个)的物品<code>&lt;itemstring&gt;</code>(参阅 <a href="./item-string">ItemStrings</a>). <code>&lt;wear&gt;</code> 参数是指定工具的损坏度(0-65535,值越大损坏越大,默认值为0),如果是其他物品该值无用,需要“授予”特权.</li>
+<li><code>/giveme &lt;itemstring&gt; [&lt;count&gt; [&lt;wear&gt;]]</code>: 给自己的东西。<code>&lt;count&gt;</code>和<code>&lt;wear&gt;</code>的含义与<code>/give</code>相同。需要“授予”特权。</li>
+</ul>
+<div>
+<p>注意</p>
+<p>执行该命令需要 “give” 权限(privilege)</p>
+</div>
+<p>示例</p>
+<ul>
+<li><code>/giveme default:torch</code>: 给你一个火炬</li>
+<li><code>/give Peter default:cobble 50</code>: 给玩家:<code>Peter</code> 50鹅卵石</li>
+<li><code>/giveme default:pick_steel 1 16383</code>: 为您提供大约25％磨损的铁镐</li>
+</ul>
+<div>
+<p>提示</p>
+<p><code>&lt;count&gt;</code>和<code>&lt;wear&gt;</code>的负数将从65536开始倒数，因此您可以使用-1作为65535（可能的最大值）的简写。</p>
+</div>
+<h4 id="pulverize-销毁所持物品" tabindex="-1"> <code>/pulverize</code> 销毁所持物品</h4>
+<ul>
+<li><code>/pulverize</code>: 销毁所持物品。可以被任何玩家使用</li>
+</ul>
+<h4 id="clearinv-销毁库存中的所有物品" tabindex="-1"> <code>/clearinv</code> 销毁库存中的所有物品</h4>
+<ul>
+<li><code>/clearinv [&lt;name&gt;]</code>: 销毁库存中的所有项目（未提供任何参数）或其他人的库存中的所有项目（<code>name</code> 提供）。要清除其他人的库存，您需要“<code>Server</code>”权限</li>
+</ul>
+<h3 id="传送命令" tabindex="-1"> 传送命令</h3>
+<p>传送是任何玩家立即移动到给定位置。以下所有命令均需要“<code>teleport</code>”特权</p>
+<ul>
+<li><code>/teleport &lt;x&gt;,&lt;y&gt;,&lt;z&gt;</code>: 将自己传送到给定的<a href="/zh/guide/teacher/coordinates/">坐标</a></li>
+<li><code>/teleport &lt;target_player&gt;</code>: 将自己传送到名称为<code>&lt;target_player&gt;</code>的玩家</li>
+<li><code>/teleport &lt;player&gt; &lt;x&gt;,&lt;y&gt;,&lt;z&gt;</code>: 将<code>&lt;player&gt;</code>传送到给定的坐标。还需要“<code>bring</code>”特权</li>
+<li><code>/teleport &lt;player1&gt; &lt;player2&gt;</code>: 将玩家<code>&lt;player1&gt;</code>传送到<code>&lt;player2&gt;</code>。还需要“<code>bring</code>”特权</li>
+</ul>
+<h3 id="kill-杀死玩家或自己" tabindex="-1"> <code>/kill</code> 杀死玩家或自己</h3>
+<ul>
+<li><code>/kill [&lt;name&gt;]</code> ：杀死玩家或自己。需要“<code>server</code>”特权</li>
+</ul>
+<h3 id="密码操作" tabindex="-1"> 密码操作</h3>
+<p>这些命令允许设置和重置任何玩家的密码，并且需要“<code>password</code>”特权才能使用</p>
+<ul>
+<li><code>/setpassword &lt;player&gt; &lt;password&gt;</code>: 将玩家<code>&lt;player&gt;</code>的密码设置为<code>&lt;password&gt;</code></li>
+<li><code>/clearpassword &lt;player&gt;</code>: 将玩家<code>&lt;player&gt;</code>的密码设置为空</li>
+</ul>
+<h3 id="从服务器封禁踢掉玩家" tabindex="-1"> 从服务器封禁踢掉玩家</h3>
+<p>这些命令允许用户踢，禁和解禁玩家。踢一个玩家意味着从服务器上删除一个连接的玩家。这需要“<code>kick</code>”特权。禁止玩家可以阻止他/她再次连接到服务器。玩家此时不需要连接。取消禁止是指取消玩家的禁令，允许他/她再次连接到服务器。<code>ban</code>和<code>unban</code>命令需要“<code>ban</code>”特权。</p>
+<ul>
+<li><code>/kick &lt;player name&gt; [&lt;reason&gt;]</code>: 踢掉玩家<code>&lt;player name&gt;</code>。可以选择以文本形式提供解释原因<code>&lt;reason&gt;</code>,此文本也会显示给被踢的玩家。</li>
+<li><code>/ban</code>: 显示被禁玩家名单</li>
+<li><code>/ban &lt;player name&gt;</code>: Ban封禁玩家<code>&lt;player name&gt;</code>的 IP</li>
+<li><code>/unban &lt;player name&gt;</code>: 解封玩家</li>
+<li><code>/unban &lt;IP address&gt;</code>: 解封被封的玩家IP</li>
+</ul>
+<h3 id="服务器信息" tabindex="-1"> 服务器信息</h3>
+<p>向服务器请求一些信息；来自服务器的应答信息也将被写入聊天记录中。</p>
+<ul>
+<li><code>/admin</code>: 查看您所连接服务器的管理员/服务器操作员的玩家名称。</li>
+<li><code>/status</code>: 查看服务器的Minetest版本，服务器运行的时间（以秒为单位）（称为“正常运行时间”），连接的玩家列表和<code>[当天]</code>的<code>[消息]</code>（如果存在）。</li>
+<li><code>/mods</code>: 查看服务器上安装的mod列表。</li>
+<li><code>/days</code>: 查看当前游戏日期（从0开始计数）</li>
+<li><code>/time</code>: 查看当前游戏时间（24小时制）</li>
+</ul>
+<h3 id="世界操作" tabindex="-1"> 世界操作</h3>
+<ul>
+<li><code>/time &lt;hours&gt;:&lt;minutes&gt;</code>: 以24小时格式（0：00-23：59）设置游戏中的&quot;一天&quot;的&quot;时间&quot;. 需要“<code>settime</code>”特权</li>
+<li><code>/time &lt;time_of_day&gt;</code>: 将一天中的时间设置为0到24000之间的数字。需要“<code>settime</code>”特权</li>
+<li><code>/set -n time_speed &lt;speed&gt;</code>: 设置游戏世界时间运转的速度[昼/夜周期],这里<code>&lt;speed&gt;</code> 是时间的速度（“<code>&lt;speed&gt;</code> 时间比在现实生活中更快”）。默认值为<code>72</code>，这意味着默认情况下，昼夜循环持续20分钟。需要“<code>server</code>”特权</li>
+<li><code>/spawnentity &lt;entity&gt; [&lt;X&gt;,&lt;Y&gt;,&lt;Z&gt;]</code>: 生成一个[实体]型<code>&lt;entity&gt;</code>的名称（参见<a href="https://wiki.minetest.net/List_of_entity_names" target="_blank" rel="noopener noreferrer">列表实体名称</a>）附近的位置或在X，Y，Z坐标，如果指定。需要“give”和“interact”权限</li>
+</ul>
+<h3 id="killme-自杀命令" tabindex="-1"> <code>/killme</code> 自杀命令</h3>
+<ul>
+<li><code>/killme</code> 自杀命令</li>
+</ul>
+<h3 id="设置-返回家-出生点" tabindex="-1"> 设置/返回家(出生点)</h3>
+<ul>
+<li><code>/sethome</code> —将当前位置设置为家的地点(“出生点”)。需要“<code>home</code>”特权</li>
+<li><code>/home</code> —将自己传送到“家”的位置。如果尚未设置家的地点(home point)，则此命令不起作用，请先执行<code>/sethome</code>设置出生点 。需要“<code>sethome</code>”特权.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>坐标</title>
+      <link>https://edu.ihom.app/zh/guide/teacher/coordinates.html</link>
+      <guid>https://edu.ihom.app/zh/guide/teacher/coordinates.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">坐标</source>
+      <pubDate>Sun, 28 Aug 2022 01:23:41 GMT</pubDate>
+      <content:encoded><![CDATA[<p>莽兜(minetest)游戏世界是一个巨大的立方体。正因为如此，世界上的一个位置可以很容易地用笛卡尔坐标来表示。也就是说，对于世界上的每个位置，都能用: X、Y 和 Z 表示。</p>
+<h2 id="符号" tabindex="-1"> 符号</h2>
+<p>坐标表示如下：<code>(5, 45, -12)</code></p>
+<p>这是指X=5，Y=45，Z=-12的位置。 这三个字母称为“轴”：Y 表示高度。 X 和 Z 用于水平位置。</p>
+<h2 id="方向" tabindex="-1"> 方向</h2>
+<p>X、Y 和 Z 的值如下所示：</p>
+<ul>
+<li>如果你上升，Y增加</li>
+<li>如果你下降，Y减少</li>
+<li>如果你跟随太阳，X 会增加</li>
+<li>如果你往相反的方向走，X 会减少</li>
+<li>看向太阳的方向，然后向右转 90° 并向前走：Z 增加</li>
+<li>看向太阳的方向，然后向左转 90° 并向前走：Z 减小</li>
+<li>一个完整方块的边长是:1</li>
+</ul>
+<h2 id="调试屏幕" tabindex="-1"> 调试屏幕</h2>
+<p>您可以通过打开调试屏幕（按 <code>F5</code> 打开）查看您的坐标, 屏幕最上方显示的就是调试信息,里面第二行的<code>Pos:</code> 后面的数字就是你的坐标。</p>
+<p><img src="@source/zh/guide/teacher/imgs/debug_screen.jpg" alt="debug screen"></p>
+<p>一般游戏/服务器都允许这样做，或者您拥有“<code>debug</code>”权限。</p>
+<p>默认情况下，游戏确实允许您访问调试屏幕中的坐标，因此大部分时间都可以使用。</p>
+<p>但是有些游戏可能会选择向普通玩家隐藏调试屏幕中的坐标。也许您应该“赢得”查看坐标的权利（例如使用特殊物品），或者坐标可能被完全隐藏以使游戏更加困难。但是，如果您拥有“debug”权限，则保证您可以访问。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>游戏内管理</title>
+      <link>https://edu.ihom.app/zh/guide/teacher/ingame-man.html</link>
+      <guid>https://edu.ihom.app/zh/guide/teacher/ingame-man.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">游戏内管理</source>
+      <pubDate>Sun, 28 Aug 2022 01:23:41 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在游戏内管理,是通过<code>聊天命令</code>(也称为<code>服务器命令</code>)进行的.顾名思义<code>聊天命令</code>就是在聊天窗口中输入的,可以使用<code>/privs</code>命令查看您自己的权限。</p>
+<p>除非另有说明，否则假定本文中的命令不需要特权。</p>
+<h2 id="发送命令" tabindex="-1"> 发送命令</h2>
+<p>在游戏内发送命令,只需要打开聊天窗口, 像输入其他聊天消息一样键入命令即可, 任何玩家都可以通过聊天输入命令执行某些操作。</p>
+<div>
+<p>注意</p>
+<p>有些命令仅在您在服务器上授予用户权限(<code>privileges</code>)后才有效。</p>
+</div>
+<div>
+<p>如何打开聊天窗体</p>
+<Tabs :data='[{"title":"PC/电脑","value":"pc"},{"title":"安卓手机/平板","value":"mobile"}]' tab-id="operator">
+<template #tab0="{ title, value, isActive }">
+<ul>
+<li>按下 <code>T</code> 键: 打开聊天窗口,输入结束,按下<code>回车(Enter)</code>键发送,<code>ESC</code>取消.</li>
+<li>按下 <code>/</code> 键: 打开聊天窗口,其中已经为您键入了<code>/</code>字符,可以直接输入聊天命令,按下<code>回车(Enter)</code>键发送,<code>ESC</code>取消.</li>
+</ul>
+</template>
+<template #tab1="{ title, value, isActive }">
+<ul>
+<li>点击左方的<strong>功能菜单</strong>(竖着的三点) <img src="@source/zh/guide/get-started/imgs/three-dot.png" alt="three dot">:
+<ul>
+<li>点击<code>聊天气泡</code>图标 <img src="@source/zh/guide/get-started/imgs/chat.png" alt="chat"> - 打开聊天窗口,然后在输入结束时,按下<code>回车(Enter)</code>键发送.</li>
+</ul>
+</li>
+</ul>
+<p><img src="@source/zh/guide/get-started/imgs/minetest_android_keys.webp" alt="minetest_android"></p>
+</template>
+</Tabs>
+</div>
+<p>所有命令均以“<code>/</code>”开头。之后，紧跟着一个单词(命令)，接着跟着参数。参数的个数需要根据具体的命令而定，不过都有约定俗成的规定：<code>&lt;&gt;</code> 内的参数表示必须的参数, <code>[]</code> 内的参数表示可以省略。</p>
+<div>
+<p>所有的命令都是“`/`”字符打头</p>
+<p>因此普通聊天消息不能以“<code>/</code>”开头,即使这样的命令不存在，它们也会被解释为命令。</p>
+<p>您可以通过服务器的响应来判断命令是否成功。如果您在聊天中看到<code>Invalid command: /blargh</code>，则可能是命令拼写错误。
+如果命令执行成功，命令将在聊天记录中返回结果或者显示窗体。</p>
+</div>
+<p>作为管理者,在开始的时候同样是没有特殊权限的,不过你随时可以通过执行<code>/grantme all</code>命令,获得所有的权限,以方便后续操作.</p>
+<h2 id="常见权限" tabindex="-1"> 常见权限</h2>
+<ul>
+<li><code>interact</code>: 是否允许与游戏物品进行交互(挖,放置,打开/关闭...),默认为允许</li>
+<li><code>shout</code>: 是否允许与其他人聊天,默认为允许</li>
+<li><code>fly</code>: 是否允许玩家激活飞行模式,默认为不允许</li>
+<li><code>fast</code>: 是否允许玩家激活快速模式,默认为不允许</li>
+<li><code>noclip</code>: 是否允许玩家激活穿墙模式,默认为不允许</li>
+<li><code>settime</code>: 是否允许玩家设置游戏世界中的时间,默认为不允许</li>
+<li><code>teleport</code>: 可以使用 <code>/teleport</code> 命令将自己传送到指定<a href="/zh/guide/teacher/coordinates.html">坐标</a>或另一个玩家面前,默认为不允许</li>
+<li><code>bring</code>: 与<code>teleport</code>一起使用，就可以使用 <code>/teleport</code> 命令将任何玩家传送到特定坐标或另一个玩家,默认为不允许</li>
+<li><code>give</code>: 是否允许获得物品,默认为不允许(生存模式)</li>
+<li><code>protection_bypass</code>: 是否允许绕过块的保护（例如，可以打开所有人的上锁的箱子或门）,默认为不允许</li>
+<li><code>privs</code>: 管理权限,如果允许就可以使用 <code>/grant</code> 和 <code>/revoke</code> 设置玩家的任何特权,默认为不允许</li>
+<li><code>basic_privs</code>: 管理权限,是否允许使用 <code>/grant</code> 和 <code>/revoke</code> 设置在<code>minetest.conf</code>配置文件定义中的权限(默认为:“<code>interact</code>”和“<code>shout</code>”权限),默认为不允许</li>
+<li><code>kick</code>: 管理权限,是否允许踢掉玩家,默认为不允许</li>
+<li><code>ban</code>:  管理权限,是否允许封禁/解封玩家或IP</li>
+</ul>
+<p><code>quiz</code>模组权限(当启用<code>quiz</code>模组存在)</p>
+<ul>
+<li><code>quiz</code>: 是否允许管理测验</li>
+<li><code>noquiz</code>: 是否允许没有测验,默认为不允许,需要测验</li>
+</ul>
+<h2 id="常见命令" tabindex="-1"> 常见命令</h2>
+<p>常见命令如下, 更完整的命令列表请参阅: <a href="/zh/guide/teacher/commands.html">聊天(服务器)命令列表</a></p>
+<h3 id="help-帮助命令" tabindex="-1"> <code>/help</code> 帮助命令</h3>
+<ul>
+<li><code>/help</code>: 根据服务器上的权限显示可用命令的列表</li>
+</ul>
+<h3 id="赋予-撤销权限命令" tabindex="-1"> 赋予/撤销权限命令</h3>
+<p>所有这些命令都要求您具有“<code>privs</code>”（操纵所有权限）或“ <code>basic_privs</code>”（操纵“<code>interact</code>”和“<code>shout</code>”权限）权限。</p>
+<ul>
+<li><code>/grant &lt;player&gt; &lt;privilege&gt;</code> -将 <code>&lt;privilege&gt;</code> 授予<code>&lt;player&gt;</code></li>
+<li><code>/grant &lt;player&gt; all</code> —将所有可用特权授予<code>&lt;player&gt;</code></li>
+<li><code>/grantme &lt;privilege&gt;</code> -给自己<code>&lt;privilege&gt;</code></li>
+<li><code>/grantme all</code> —赋予自己所有特权</li>
+<li><code>/revoke &lt;player&gt; &lt;privilege&gt;</code> —从移除</li>
+<li><code>/revoke &lt;player&gt; all</code> —移除<code>&lt;player&gt;</code>所有权限</li>
+<li><code>/revokeme &lt;privilege&gt;</code> —移除自己的<code>&lt;privilege&gt;</code>权限</li>
+<li><code>/revokeme all</code> —移除自己的所有权限</li>
+</ul>
+<h3 id="privs-查看玩家的权限命令" tabindex="-1"> <code>/privs</code> 查看玩家的权限命令</h3>
+<ul>
+<li><code>/privs [&lt;player&gt;]</code>: 显示玩家(<code>&lt;player&gt;</code>)的权限列表，如果未指定玩家，则为您自己的特权</li>
+</ul>
+<h3 id="聊天" tabindex="-1"> 聊天</h3>
+<p>这些命令需要“<code>shout</code>”特权才能工作。</p>
+<h4 id="msg-私聊命令" tabindex="-1"> <code>/msg</code> 私聊命令</h4>
+<ul>
+<li><code>/msg &lt;player&gt; &lt;message&gt;</code>: 向指定玩家<code>&lt;player&gt;</code>发送直接消息<code>&lt;message&gt;</code>；其他玩家看不到。</li>
+</ul>
+<div>
+<p>注意</p>
+<p>该消息并不是真正的秘密。任何人拦截网络流量，服务器操作员原则上仍可以阅读</p>
+</div>
+<h3 id="物品" tabindex="-1"> 物品</h3>
+<h4 id="give-和-giveme-给予物品命令" tabindex="-1"> <code>/give</code> 和 <code>/giveme</code> 给予物品命令</h4>
+<ul>
+<li><code>/give &lt;player&gt; &lt;itemstring&gt; [&lt;count&gt; [&lt;wear&gt;]]</code>: 给予玩家<code>&lt;player&gt;</code>指定数量<code>&lt;count&gt;</code>(默认是1个)的物品<code>&lt;itemstring&gt;</code>(参阅 <a href="./item-string">ItemStrings</a>). <code>&lt;wear&gt;</code> 参数是指定工具的损坏度(0-65535,值越大损坏越大,默认值为0),如果是其他物品该值无用,需要“授予”特权.</li>
+<li><code>/giveme &lt;itemstring&gt; [&lt;count&gt; [&lt;wear&gt;]]</code>: 给自己的东西。<code>&lt;count&gt;</code>和<code>&lt;wear&gt;</code>的含义与<code>/give</code>相同。需要“授予”特权。</li>
+</ul>
+<div>
+<p>注意</p>
+<p>执行该命令需要 “give” 权限(privilege)</p>
+</div>
+<h3 id="传送命令" tabindex="-1"> 传送命令</h3>
+<p>传送是任何玩家立即移动到给定位置。以下所有命令均需要“<code>teleport</code>”特权</p>
+<ul>
+<li><code>/teleport &lt;x&gt;,&lt;y&gt;,&lt;z&gt;</code>: 将自己传送到给定的<a href="/zh/guide/teacher/coordinates/">坐标</a></li>
+<li><code>/teleport &lt;target_player&gt;</code>: 将自己传送到名称为<code>&lt;target_player&gt;</code>的玩家</li>
+<li><code>/teleport &lt;player&gt; &lt;x&gt;,&lt;y&gt;,&lt;z&gt;</code>: 将<code>&lt;player&gt;</code>传送到给定的坐标。还需要“<code>bring</code>”特权</li>
+<li><code>/teleport &lt;player1&gt; &lt;player2&gt;</code>: 将玩家<code>&lt;player1&gt;</code>传送到<code>&lt;player2&gt;</code>。还需要“<code>bring</code>”特权</li>
+</ul>
+<h3 id="kill-杀死玩家或自己" tabindex="-1"> <code>/kill</code> 杀死玩家或自己</h3>
+<ul>
+<li><code>/kill [&lt;name&gt;]</code> ：杀死玩家或自己。需要“<code>server</code>”特权</li>
+</ul>
+<h3 id="密码操作" tabindex="-1"> 密码操作</h3>
+<p>这些命令允许设置和重置任何玩家的密码，并且需要“<code>password</code>”特权才能使用</p>
+<ul>
+<li><code>/setpassword &lt;player&gt; &lt;password&gt;</code>: 将玩家<code>&lt;player&gt;</code>的密码设置为<code>&lt;password&gt;</code></li>
+<li><code>/clearpassword &lt;player&gt;</code>: 将玩家<code>&lt;player&gt;</code>的密码设置为空</li>
+</ul>
+<h3 id="从服务器封禁踢掉玩家" tabindex="-1"> 从服务器封禁踢掉玩家</h3>
+<p>这些命令允许用户踢，禁和解禁玩家。踢一个玩家意味着从服务器上删除一个连接的玩家。这需要“<code>kick</code>”特权。禁止玩家可以阻止他/她再次连接到服务器。玩家此时不需要连接。取消禁止是指取消玩家的禁令，允许他/她再次连接到服务器。<code>ban</code>和<code>unban</code>命令需要“<code>ban</code>”特权。</p>
+<ul>
+<li><code>/kick &lt;player name&gt; [&lt;reason&gt;]</code>: 踢掉玩家<code>&lt;player name&gt;</code>。可以选择以文本形式提供解释原因<code>&lt;reason&gt;</code>,此文本也会显示给被踢的玩家。</li>
+<li><code>/ban</code>: 显示被禁玩家名单</li>
+<li><code>/ban &lt;player name&gt;</code>: Ban封禁玩家<code>&lt;player name&gt;</code>的 IP</li>
+<li><code>/unban &lt;player name&gt;</code>: 解封玩家</li>
+<li><code>/unban &lt;IP address&gt;</code>: 解封被封的玩家IP</li>
+</ul>
+<h3 id="游戏世界的日期和时间" tabindex="-1"> 游戏世界的日期和时间</h3>
+<ul>
+<li><code>/days</code>: 查看当前游戏日期（从0开始计数）</li>
+<li><code>/time</code>: 查看当前游戏时间（24小时制）</li>
+</ul>
+<h3 id="调整游戏世界的时间和速度" tabindex="-1"> 调整游戏世界的时间和速度</h3>
+<ul>
+<li><code>/time &lt;hours&gt;:&lt;minutes&gt;</code>: 以24小时格式（0：00-23：59）设置游戏中的&quot;一天&quot;的&quot;时间&quot;. 需要“<code>settime</code>”特权</li>
+<li><code>/set -n time_speed &lt;speed&gt;</code>: 设置游戏世界时间运转的速度[昼/夜周期],这里<code>&lt;speed&gt;</code> 是时间的速度（“<code>&lt;speed&gt;</code> 时间比在现实生活中更快”）。默认值为<code>72</code>，这意味着默认情况下，昼夜循环持续20分钟。需要“<code>server</code>”特权</li>
+</ul>
+<h3 id="killme-自杀命令" tabindex="-1"> <code>/killme</code> 自杀命令</h3>
+<ul>
+<li><code>/killme</code> 自杀命令</li>
+</ul>
+<h3 id="设置-返回家-出生点" tabindex="-1"> 设置/返回家(出生点)</h3>
+<ul>
+<li><code>/sethome</code> —将当前位置设置为家的地点(“出生点”)。需要“<code>home</code>”特权</li>
+<li><code>/home</code> —将自己传送到“家”的位置。如果尚未设置家的地点(home point)，则此命令不起作用，请先执行<code>/sethome</code>设置出生点 。需要“<code>sethome</code>”特权.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>物品内部名称(ItemStrings)</title>
+      <link>https://edu.ihom.app/zh/guide/teacher/item-string.html</link>
+      <guid>https://edu.ihom.app/zh/guide/teacher/item-string.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">物品内部名称(ItemStrings)</source>
+      <pubDate>Sun, 28 Aug 2022 01:23:41 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Itemstrings是物品的内部名称.</p>
+<h2 id="语法" tabindex="-1"> 语法</h2>
+<p>一般的物品内部名称字符串是由物品来源的模组名称 + “：” + 物品实际名称组成。</p>
+<div>
+<p>注意</p>
+<p>所有物品名称都区分大小写。</p>
+</div>
+<div><pre><code>&lt;mod_name>:&lt;item_name>
+</code></pre><div aria-hidden="true"><div></div></div></div><p>例子:</p>
+<ul>
+<li><code>default:torch</code> — a torch (from mod “default”)</li>
+<li><code>default:dirt</code> — dirt (from mod “default”)</li>
+<li><code>farming:bread</code> — bread (from mod “farming”)</li>
+<li><code>wool:orange</code> — orange wool (from mod “wool”)</li>
+<li><code>screwdriver:screwdriver</code> — screwdriver (from mod “screwdriver”)</li>
+</ul>
+<p>也有一些特殊的物品名称不遵循上述规则.</p>
+<h2 id="特殊的物品名称" tabindex="-1"> 特殊的物品名称</h2>
+<ul>
+<li>air</li>
+<li>ignore: 内部使用的表示不可见的,还没有加载(unloaded).</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>游戏外管理</title>
+      <link>https://edu.ihom.app/zh/guide/teacher/outgame-man.html</link>
+      <guid>https://edu.ihom.app/zh/guide/teacher/outgame-man.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">游戏外管理</source>
+      <category>指南</category>
+      <category>家长/教师</category>
+      <pubDate>Sun, 28 Aug 2022 01:23:41 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在这里家长或老师可以对孩子的游戏课程内容进行管理以及主持多人游戏.</p>
+<p>运行后,点击&quot;教师模式&quot;,输入密码后进入管理界面.</p>
+<p><img src="@source/imgs/pc-stu.png" alt="pc"></p>
+<p>管理界面有6个标签页.</p>
+<ol>
+<li>教师模式</li>
+<li>启动游戏/主持游戏:在这里管理游戏世界(课程)以及启用模组</li>
+<li>加入游戏</li>
+<li>内容(已安装的模组管理)</li>
+<li>设置</li>
+<li>关于</li>
+</ol>
+<h3 id="教师模式" tabindex="-1"> 教师模式</h3>
+<p>点击第一个标签页是&quot;教师模式&quot;.</p>
+<p><img src="@source/zh/guide/teacher/imgs/teacher-mode.jpg" alt="teacher-mode"></p>
+<ul>
+<li><code>教师登录名</code>: 增加/修改教师登录名, 只能是英文(半角)字符</li>
+<li><code>密码</code>: 修改教师的登录密码.</li>
+<li><code>服务器地址</code>: 进行多人游戏必须输入游戏服务器地址</li>
+<li><code>端口</code>: 多人游戏服务器端口(默认端口,一般不需要改变)</li>
+<li><code>允许单人游戏</code>: 勾选在学生游戏界面出现:<code>开始(单人)游戏</code> 按钮</li>
+<li><code>允许远程游戏</code>: 勾选在学生游戏界面出现:<code>开始(多人)游戏</code> 按钮,必须先配置<code>服务器地址</code>.</li>
+<li><code>语言</code>: 快速设定使用语言,默认留空表示使用系统语言,重启后生效.</li>
+<li><code>保存</code> 按钮: 修改上述教师配置后必须点击保存,才能生效.</li>
+<li><code>学生模式</code>按钮: 点击返回到学生模式.</li>
+</ul>
+<h3 id="启动游戏-主持游戏" tabindex="-1"> 启动游戏/主持游戏</h3>
+<p>点击第二个标签页是&quot;启动游戏&quot;.在这里管理游戏世界(课程)以及启用模组.</p>
+<p><img src="@source/zh/guide/teacher/imgs/teacher-start-game.jpg" alt="teacher start game"></p>
+<ul>
+<li><code>创造模式</code>: 勾选则为选择的世界启用<code>创造模式</code>,否则就是<code>生存模式</code></li>
+<li><code>开启伤害</code>: 是否开启伤害</li>
+<li><code>建立服务器</code>: 勾选后,本机同时作为服务器运行,右边的&quot;开始游戏&quot;按钮,变为&quot;主持游戏&quot;.</li>
+<li><code>公开服务器</code>: 是否将服务器地址公布到互联网上,仅当<code>建立服务器</code>勾选后出现</li>
+<li><code>选择世界</code>: 右边可以选择希望运行的游戏世界,这里可以认为每一个世界就是一个课程.
+<ul>
+<li><code>新建</code>: 新建一个游戏世界</li>
+<li><code>选择Mod</code>: 为当前游戏世界(课程)选择适当的功能模组(Mod)</li>
+<li><code>删除</code>: 删除当前选择的游戏世界(课程)</li>
+</ul>
+</li>
+</ul>
+<p><img src="@source/zh/guide/teacher/imgs/teacher-host-game.jpg" alt="teacher-host-game"></p>
+<div>
+<p>注意</p>
+<p>如果<code>主持游戏</code>退出游戏,那么本机游戏服务停止.</p>
+</div>
+<p><img src="@source/zh/guide/teacher/imgs/teacher-select-mod.jpg" alt="teacher-select-mod"></p>
+<h3 id="加入游戏" tabindex="-1"> 加入游戏</h3>
+<p>这里可以用教师身份加入多人游戏.</p>
+<p><img src="@source/zh/guide/teacher/imgs/teacher-join-game.jpg" alt="teacher-join-game"></p>
+<h3 id="内容" tabindex="-1"> 内容</h3>
+<p>这里对已安装的模组进行管理.</p>
+<p><img src="@source/zh/guide/teacher/imgs/teacher-content.jpg" alt="teacher-content"></p>
+<h3 id="设置" tabindex="-1"> 设置</h3>
+<p>视计算机/手机/平板的能力进行设置.</p>
+<p><img src="@source/zh/guide/teacher/imgs/teacher-config.jpg" alt="teacher-config"></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>创造模式</title>
+      <link>https://edu.ihom.app/zh/guide/play/creative/</link>
+      <guid>https://edu.ihom.app/zh/guide/play/creative/</guid>
+      <source url="https://edu.ihom.app/rss.xml">创造模式</source>
+      <pubDate>Fri, 26 Aug 2022 03:00:05 GMT</pubDate>
+      <content:encoded><![CDATA[<div>
+<p>提示</p>
+<p>如果对游戏操作不清楚，请先阅读<a href="/zh/guide/get-started/">快速上手指南</a>。</p>
+</div>
+<p>创造模式下所有资源都是唾手可得.而且世界的方块无需工具就可徒手挖掉(除非是设置了保护).</p>
+<h2 id="打开物品栏" tabindex="-1"> 打开物品栏</h2>
+<Tabs :data='[{"title":"PC/电脑","value":"pc"},{"title":"安卓手机/平板","value":"mobile"}]' tab-id="operator">
+<template #tab0="{ title, value, isActive }">
+<p>按<code>I</code>键打开物品栏,按下<code>ESC</code>键关闭物品栏.</p>
+</template>
+<template #tab1="{ title, value, isActive }">
+<ul>
+<li>点击右方的<strong>功能菜单</strong>(竖着的三点) <img src="@source/zh/guide/get-started/imgs/three-dot.png" alt="three dot">:
+<ul>
+<li>点击九方格图标 <img src="@source/zh/guide/get-started/imgs/inventory.png" alt="Inventory"> - 打开玩家物品装备(合成)栏</li>
+</ul>
+</li>
+</ul>
+<p>点击屏幕其他区域(非物品栏窗体)即可关闭物品栏.</p>
+</template>
+</Tabs>
+<p>可以看到物品栏分为左右部分:</p>
+<p><img src="@source/zh/guide/play/imgs/inventory.jpg" alt="inventory"></p>
+<ul>
+<li>左边
+<ul>
+<li>上面部分为玩家物品合成栏(在创造模式下用不上)</li>
+<li>下面部分为玩家随身物品栏</li>
+</ul>
+</li>
+<li>右边为游戏内所有的物品(包括装备、动物)清单:
+<ul>
+<li>在创造模式下,点击其中的任意物品就可放到用户的随身物品栏中.</li>
+<li>在生存模式下,只能查看物品的合成方法.</li>
+</ul>
+</li>
+</ul>
+<p>现在,小小创世神,现在开始创造你心目中的世界吧.</p>
+<p><img src="@source/imgs/izzyscastle.webp" alt="izzys castle"></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>求生模式</title>
+      <link>https://edu.ihom.app/zh/guide/play/survival/</link>
+      <guid>https://edu.ihom.app/zh/guide/play/survival/</guid>
+      <source url="https://edu.ihom.app/rss.xml">求生模式</source>
+      <pubDate>Fri, 26 Aug 2022 03:00:05 GMT</pubDate>
+      <content:encoded><![CDATA[<div>
+<p>提示</p>
+<p>如果对游戏操作不清楚，请先阅读<a href="/zh/guide/get-started/">快速上手指南</a>。</p>
+</div>
+<p>你出生在一个随机的地点，时间为早上。这时你需要寻找树木。太阳也会东升西落，</p>
+<div>
+<p>提示</p>
+<p>如果在这个世界中启用了生物/怪物模组,那么这个世界就会随机出现生物,有些特有的生物/怪物,会只在白天或晚上才会出现，对你的生存影响很大.</p>
+</div>
+<h2 id="挖掘并得到掉落的方块" tabindex="-1"> 挖掘并得到掉落的方块</h2>
+<p>在生存模式获得资源的方式就是通过挖掘并得到掉落的方块.</p>
+<p><img src="@source/zh/guide/play/imgs/tree.jpg" alt="tree"></p>
+<p>树一般由树干与树叶组成。如图所示，这是一颗苹果树，附近颜色较浅的树是松树。木头都是一样的，除了颜色与纹理上的差异。</p>
+<p>由于你没有任何工具，你需要靠近并(用小小的十字准心)对准木头，连续击打木头，你会发现木头出现了方块裂痕，继续不停的击打木头,当裂痕布满这个方块，这个方块会被挖掉，以物品的形式出现在地上，接近会被拾取(默认启用<code>ItemDrop</code>模组)。大部分方块都需要特定的工具才可以快速破坏并掉落。</p>
+<div>
+<p>"击打木头"操作方法</p>
+<p>靠近树木后:</p>
+<Tabs :data='[{"title":"PC/电脑","value":"pc"},{"title":"安卓手机/平板","value":"mobile"}]' tab-id="operator">
+<template #tab0="{ title, value, isActive }">
+<p>连续击打: 按住鼠标左键不放
+单次击打: 点按鼠标左键</p>
+</template>
+<template #tab1="{ title, value, isActive }">
+<p>连续击打: 用手指按住屏幕右方的树木不放</p>
+<p><em>注意</em>: 请确保树木是处于屏幕的右方;屏幕左方是前进方向控制区,无法操作击打.</p>
+</template>
+</Tabs>
+</div>
+<p>几秒后你的手中就多了一块木头</p>
+<h2 id="合成物品与设备" tabindex="-1"> 合成物品与设备</h2>
+<p>打开物品栏，将木头左键，放入合成下面的6个方格中的任意一个，合成好的物品就出现在右边的那个小方格中，恭喜你，你把木头分解为了4个木板。
+然后你可以把右边小方格中合成好的木板,拖到自己的随身物品栏中.</p>
+<p><img src="@source/zh/guide/play/imgs/inventory.jpg" alt="inventory"></p>
+<div>
+<p>"打开物品栏"操作方法</p>
+<Tabs :data='[{"title":"PC/电脑","value":"pc"},{"title":"安卓手机/平板","value":"mobile"}]' tab-id="operator">
+<template #tab0="{ title, value, isActive }">
+<p>按<code>I</code>键打开物品栏,按下<code>ESC</code>键关闭物品栏.</p>
+</template>
+<template #tab1="{ title, value, isActive }">
+<ul>
+<li>点击右方的<strong>功能菜单</strong>(竖着的三点) <img src="@source/zh/guide/get-started/imgs/three-dot.png" alt="three dot">:
+<ul>
+<li>点击九方格图标 <img src="@source/zh/guide/get-started/imgs/inventory.png" alt="Inventory"> - 打开玩家物品装备(合成)栏</li>
+</ul>
+</li>
+</ul>
+<p>点击屏幕其他区域(非物品栏窗体)即可关闭物品栏.</p>
+</template>
+</Tabs>
+</div>
+<p><img src="@source/zh/guide/play/imgs/tree_plank.jpg" alt="plank"></p>
+<div>
+<p>"拖动物品"的操作方法</p>
+<Tabs :data='[{"title":"PC/电脑","value":"pc"},{"title":"安卓手机/平板","value":"mobile"}]' tab-id="operator">
+<template #tab0="{ title, value, isActive }">
+<p>鼠标移动到物品上,左键点击物品,即可抓住物品,然后移动鼠标到目标位置,最后再次点击鼠标左键,就全部放下,点击鼠标右键,就放下一半.</p>
+</template>
+<template #tab1="{ title, value, isActive }">
+<p>手指按住屏幕上的物品不放,然后移动到目标,最后手指离开屏幕或者按下另一个手指分离多个物品.也可按电脑上的方式操作.</p>
+</template>
+</Tabs>
+</div>
+<h3 id="木根" tabindex="-1"> 木根</h3>
+<p><img src="@source/zh/guide/play/imgs/tree_stick.jpg" alt="stick"></p>
+<p>然后放块木板到合成栏中,就会得到4根木棍.</p>
+<h3 id="镐子" tabindex="-1"> 镐子</h3>
+<p><img src="@source/zh/guide/play/imgs/pick_menu.jpg" alt="pick"></p>
+<p>这样做出镐子（什么工具都可以没有，镐子绝对要有）。可以把镐头换成石头或铁锭。</p>
+<p><img src="@source/zh/guide/play/imgs/dig_stone.jpg" alt="dig stone"></p>
+<p>然后去挖石头，这灰色的就是石头，用镐子采集，获得原石。</p>
+<p><img src="@source/zh/guide/play/imgs/stone_pick.jpg" alt="stone pick"></p>
+<p>这样做石镐，可以采集木镐采集不了的铁矿。</p>
+<p><img src="@source/zh/guide/play/imgs/stone_with_coal.jpg" alt="coal"></p>
+<p>有黑点点的是煤矿，可以挖出煤炭；</p>
+<p><img src="@source/zh/guide/play/imgs/stone_with_iron.jpg" alt="stone_with_iron.jpg"></p>
+<p>带有暗金点点的是铁矿，可以挖出铁矿。</p>
+<h3 id="火把" tabindex="-1"> 火把</h3>
+<p><img src="@source/zh/guide/play/imgs/torch.jpg" alt="torch"></p>
+<p>这样做火把，用于照明。</p>
+<h3 id="熔炉" tabindex="-1"> 熔炉</h3>
+<p><img src="@source/zh/guide/play/imgs/furnace.jpg" alt="furnace"></p>
+<p>八个原石搭建一个熔炉，用来烧制熟食和矿物。</p>
+<h3 id="铁锭" tabindex="-1"> 铁锭</h3>
+<p><img src="@source/zh/guide/play/imgs/furnace_iron.jpg" alt="furnace iron"></p>
+<p>煤炭、各种树叶以及大部分木制品可用作燃料，上方摆放烧制的物品，如图铁矿获得铁锭。</p>
+<p>初期没有煤炭，可以把树叶、木板和木质工具放进去当燃料烧，当然火一会就灭了，因为不耐烧，因此你需要多放一些燃料。</p>
+<h3 id="铁镐" tabindex="-1"> 铁镐</h3>
+<p><img src="@source/zh/guide/play/imgs/steel_pick.jpg" alt="steel_pick"></p>
+<p>如图这样做出铁镐，可采集铁矿以上更高级的矿物。</p>
+<h3 id="斧头" tabindex="-1"> 斧头</h3>
+<p><img src="@source/zh/guide/play/imgs/stone_axe.jpg" alt="stone_axe"></p>
+<p>斧头的做法（石头可以换成木头，铁之类的，其他工具同理）主要用来砍木制品，也鼓励用作武器。</p>
+<h3 id="剑" tabindex="-1"> 剑</h3>
+<p><img src="@source/zh/guide/play/imgs/stone_sword.jpg" alt="stone_sword.jpg"></p>
+<p>剑的做法，可对多目标造成横砍的群伤效果。</p>
+<h3 id="铲子" tabindex="-1"> 铲子</h3>
+<p><img src="@source/zh/guide/play/imgs/stone_shovel.jpg" alt="stone_shovel.jpg"></p>
+<p>铲子用来挖泥土，沙子，砂砾，速度更快。</p>
+<h3 id="锄头" tabindex="-1"> 锄头</h3>
+<p><img src="@source/zh/guide/play/imgs/stone_hoe.jpg" alt="stone_hoe.jpg"></p>
+<p>锄头，种地用，对泥土右键可生成耕地。</p>
+<h3 id="桶" tabindex="-1"> 桶</h3>
+<p><img src="@source/zh/guide/play/imgs/steel_bucket.jpg" alt="steel_bucket.jpg"></p>
+<p>铁桶可以提水（在有水的地方按下左键挖水）。用右键（放置）倒水。</p>
+<h3 id="耕地" tabindex="-1"> 耕地</h3>
+<p><img src="@source/zh/guide/play/imgs/plant_water.jpg" alt="plant"></p>
+<p>在耕地上播种（小麦种子可通过撸草获得）,耕地旁要有水源才能长好.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>https://edu.ihom.app/zh/about.html</link>
+      <guid>https://edu.ihom.app/zh/about.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">关于</source>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="关于《莽兜世界-教育版》" tabindex="-1"> 关于《莽兜世界:教育版》</h2>
+<p>起始于我孩子的教育，一年前发现《<a href="https://education.minecraft.net/" target="_blank" rel="noopener noreferrer">我的世界：教育版</a>》,开始觉得不错，但是对个人这也限制，那也限制，拿着老师辛苦的作的世界课程当自己的，夹各种私货。完整的 《我的世界：教育版》专为学校量身定制（机构钱多），目前在全球超过 115 个国家/地区使用。这是一项每月订阅服务（按月收费），需要 Microsoft 365 教育帐户和 Mojang 帐户，因此访问受到限制，除非学校允许，否则普通人将无法利用。这显然不符合人人都有获得教育的权利。</p>
+<p>然后是在试用过程中，发现如果孩子没有人陪着，那么就会在课程世界中乱玩，根本不会按照课程来。能不动脑筋，就绝不动脑，宁可傻玩,四处打洞,挖啊挖然后迷路了,爬到很高的地方,然后跳下去,摔死,美其名曰蹦极。傻玩起来还就没完没了。</p>
+<p>于是利用《我的世界：教育版》来学习的想法,破产了.</p>
+<p>再后来发现了开源的 <a href="https://minetest.net/" target="_blank" rel="noopener noreferrer">Minetest <em>体素</em> 游戏引擎</a><sup></sup>，更加开放，自由。我吸取了在《我的世界：教育版》中受到的教训,于是我首先开发了<a href="/zh/guide/mods/quiz/">Quiz-玩家挑战功能模组</a>：用来实现在游玩的间隙穿插练习以及控制游戏时间的作用，傻玩吧，傻玩也得练！还别说，效果不错。当然孩子的怨言还是大的，叫嚷着把练习删掉， 于是我让她选择是单独作练习，还是在游戏中练习，她毫不犹豫的选择后者。</p>
+<p>怎么说呢，学习效果还可以，平时记忆非常痛苦的单词，磨叽半天，押着难受；而在游戏中是玩着，不用家长监督，自然就记住了。我在游戏中给她出的题是数学和英语，最开始数学运算题目是写死的，不变的，没过一两天，好嘛，她直接把答案记住了，根本就不再去计算，于是我要不时的更换题目，最后烦了，增加了<code>四则运算</code>类型，根据规则随机出题目。</p>
+<p>随后，为了便于管理游戏内容，直接修改了Minetest的界面:分离了学生游戏界面（玩）和教师界面(管理游戏内容)。然后根据Minetest的音译取了个名字:<strong>莽兜</strong>，到处都是方方正正的方块，也够<strong>莽兜</strong>的，这也算意译吧。于是在整合集成了若干模组后《莽兜世界:教育版》就新鲜出炉。</p>
+<p>现在，当我有空时，就在莽兜世界里教她编程，只要她能够在游戏中完成我布置的任务，就不管她后面怎么折腾，傻玩。说实话，虽然现在她大概会一点点编程了，但是依然不会用，虽然她明知道可以用编程的方式快速建出一个房间，但是她宁可用手一块块的建。她知道门可以通过压力板（玩家侦查器)实现自动开关门，但是依然不用，还是喜欢用手开门关门...</p>
+<p>《莽兜世界:教育版》的代码主仓库在Github:https://github.com/edu-minetest/minetest/, 主功能分支为<code>edu/builtin</code>,以及一系列以<code>edu/</code>打头的子功能分支组成.</p>
+<h2 id="关于《莽兜世界-minetest-体素游戏引擎》" tabindex="-1"> 关于《<a href="https://minetest.net/" target="_blank" rel="noopener noreferrer">莽兜世界: Minetest 体素游戏引擎</a>》</h2>
+<p>感谢<a href="https://minetest.net/" target="_blank" rel="noopener noreferrer">莽兜世界: Minetest 体素游戏引擎</a>，没有<a href="https://minetest.net/" target="_blank" rel="noopener noreferrer">莽兜世界: Minetest 体素游戏引擎</a>就没有《<a href="/">莽兜世界:教育版</a>》.</p>
+<p>《Minetest》是一个由志愿者团队开发的自由及开放源代码沙盒电玩游戏引擎。其以C++编写，可在Linux、FreeBSD、Microsoft Windows、MacOS和Android等系统上运行。Minetest为开发者提供了一个使用Lua的应用程序接口，允许开发者创建他们自己的游戏和模组。</p>
+<p>《Minetest》已在教育环境中用于教授数学，程序设计和地球科学等学科。与同类程序或配套相比，它的优势在于零成本，可在教室或研究环境中进行大规模部署。此外，Minetest的图形引擎虽然没有针对最新的硬件进行优化，但在低成本和低端硬件上却表现出色<sup></sup>。</p>
+<ul>
+<li>Minetest被用作辅助设计工具，用于远程教学<sup></sup></li>
+<li>Minetest用于向中小学生教授逻辑思维和调试<sup></sup></li>
+<li>Minetest被用来教授<a href="https://zh.m.wikipedia.org/zh-hans/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6" target="_blank" rel="noopener noreferrer">微积分</a>和<a href="https://zh.m.wikipedia.org/zh-hans/%E4%B8%89%E8%A7%92%E5%AD%A6" target="_blank" rel="noopener noreferrer">三角学</a><sup></sup></li>
+<li>在巴西的圣卡塔琳娜州联邦大学，MineScratch（Minetest的变体）被用来教学<sup></sup></li>
+<li>在巴黎笛卡尔大学，Minetest用于向六年级的学生讲授生命和地球科学；这些学生无法亲自观察到某些现象，但可以在Minetest虚拟世界中体验到这些现象<sup></sup></li>
+</ul>
+<h2 id="版权声明" tabindex="-1"> 版权声明</h2>
+<ul>
+<li><a href="https://minetest.net/" target="_blank" rel="noopener noreferrer">Minetest 体素游戏引擎</a>遵循<a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank" rel="noopener noreferrer">LGPL2.1</a>版权许可证</li>
+<li>《<a href="https://edu.ihom.app/" target="_blank" rel="noopener noreferrer">莽兜世界:教育版</a>》遵循<a href="https://www.gnu.org/licenses/lgpl-3.0.zh-cn.html" target="_blank" rel="noopener noreferrer">LGPL3</a>版权许可证</li>
+</ul>
+<hr>
+<section>
+<ol>
+<li id="footnote1"><p>体素（英语：Voxel，或立体像素），是体积像素（Volume Pixel）的简称。概念上类似二维空间的最小单位——像素，像素用在二维电脑图像的影像资料上。体积像素一如其名，是数位资料于三维空间分割上的最小单位，应用于三维成像、科学资料与医学影像等领域. <a href="https://baike.baidu.com/item/%E4%BD%93%E7%B4%A0/8945761" target="_blank" rel="noopener noreferrer">百度百科</a> <a href="https://zh.m.wikipedia.org/zh-hans/%E9%AB%94%E7%B4%A0" target="_blank" rel="noopener noreferrer">维基百科</a> </p>
+</li>
+<li id="footnote2"><p><a href="https://en.wikinews.org/wiki/Open_source_game_developer_Perttu_Ahola_talks_about_Minetest_with_Wikinews" target="_blank" rel="noopener noreferrer">Open source game developer Perttu Ahola talks about Minetest with Wikinews</a>. Wikinews. 2020-06-30 [2020-07-11]. （<a href="https://web.archive.org/web/20200712073905/https://en.wikinews.org/wiki/Open_source_game_developer_Perttu_Ahola_talks_about_Minetest_with_Wikinews" target="_blank" rel="noopener noreferrer">原始内容存档</a>于2020-07-12）. </p>
+</li>
+<li id="footnote3"><p>Walsh, Greg; Donahue, Craig; Rhodes, Emily E. <a href="https://mdsoar.org/bitstream/handle/11603/7723/KidCraft.pdf" target="_blank" rel="noopener noreferrer">KidCraft: Co-Designing within a Game Environment</a> (PDF). 2015 [2019-10-12]. （<a href="https://web.archive.org/web/20210203071241/https://mdsoar.org/bitstream/handle/11603/7723/KidCraft.pdf" target="_blank" rel="noopener noreferrer">原始内容存档</a> (PDF)于2021-02-03） （英语）. </p>
+</li>
+<li id="footnote4"><p><a href="http://www.taccle3.eu/wp-content/uploads/2017/12/20161024-O4-Evaluation-of-existing-resources-for-introducing-to-coding.pdf" target="_blank" rel="noopener noreferrer">Evaluation of existing resources (study/analysis)</a> (PDF). TACCLE 3 – Coding. 2016-10-24 [2019-02-16]. （<a href="https://web.archive.org/web/20180516205409/http://www.taccle3.eu/wp-content/uploads/2017/12/20161024-O4-Evaluation-of-existing-resources-for-introducing-to-coding.pdf" target="_blank" rel="noopener noreferrer">原始内容存档</a> (PDF)于2018-05-16）. </p>
+</li>
+<li id="footnote5"><p>Boutet, Henri. <a href="http://revue.sesamath.net/spip.php?article940" target="_blank" rel="noopener noreferrer">Mathématiques et &quot;serious gaming&quot;: l'exemple de Minetest [Mathematics and &quot;serious gaming&quot;: the example of Minetest]</a>. Mathématice. Num. 53. January 2017 [2019-10-12]. （<a href="https://web.archive.org/web/20190629075729/http://revue.sesamath.net/spip.php?article940" target="_blank" rel="noopener noreferrer">原始内容存档</a>于2019-06-29） （法语）. </p>
+</li>
+<li id="footnote6"><p>da, Rocha, Jhonata. <a href="http://150.162.242.35/handle/123456789/171545" target="_blank" rel="noopener noreferrer">MineScratch: integração minetest-scratch para apoiar o ensino de programação [MineScratch: Minetest-Scratch Integration to Support Programming Teaching]</a>. Repositório Institucional da UFSC. 2016-11-23 [2019-02-16]. （<a href="https://web.archive.org/web/20210203071244/http://150.162.242.35/handle/123456789/171545" target="_blank" rel="noopener noreferrer">原始内容存档</a>于2021-02-03） （巴西葡萄牙语）. </p>
+</li>
+<li id="footnote7"><p>Pauty-Combemorel C. <a href="https://hal.archives-ouvertes.fr/hal-01753090/document" target="_blank" rel="noopener noreferrer">Utilisation d'un jeu vidéo dans le cadre de l'enseignement des SVT: le cas de Minetest. De 0 à 1 ou l'heure de l'informatique à l'école. [Using a video game as part of the teaching of Life and Earth Sciences: the case of Minetest. From 0 to 1 or computer time at school.]</a>. 2018-02-07 [2019-10-11]. （<a href="https://web.archive.org/web/20191011091553/https://hal.archives-ouvertes.fr/hal-01753090/document" target="_blank" rel="noopener noreferrer">原始内容存档</a>于2019-10-11） （法语）. </p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>变更日志</title>
+      <link>https://edu.ihom.app/zh/changelog.html</link>
+      <guid>https://edu.ihom.app/zh/changelog.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">变更日志</source>
+      <description>该文件包含《莽兜世界:教育版》的版本历史。
+</description>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<p>该文件包含《莽兜世界:教育版》的版本历史。</p>
+
+<h2 id="公开发布版本" tabindex="-1"> 公开发布版本</h2>
+<h3 id="v5-6-1-76bfbb601-2022-09-25" tabindex="-1"> v5.6.1-76bfbb601(2022-09-25)</h3>
+<ul>
+<li>Upgrade to Minetest@5.6.1</li>
+<li>Upgrade Installed Mods</li>
+<li>🆕️️ Education Mods Added:
+<ul>
+<li>🆕️️ classroom</li>
+<li>🆕️️ accountmgr</li>
+<li>🆕️️ mathplot</li>
+<li>🆕️️ vbots</li>
+<li>🆕️️ scriptblocks2</li>
+<li>🆕️️ computertest</li>
+<li>🆕️️ country flags</li>
+</ul>
+</li>
+</ul>
+<h3 id="v5-5-1-76bfbb601-2022-08-28" tabindex="-1"> v5.5.1-76bfbb601(2022-08-28)</h3>
+<ul>
+<li>首次公开发布</li>
+<li>Upgrade to Minetest@5.6.1</li>
+<li>Many improvements and bugfixes</li>
+<li>Quiz 玩家挑战模组的主要改进:
+<ul>
+<li>🆕️️ 新的四则运算答题类型(type): <code>calc</code></li>
+<li>🆕️️ 文字类型的答案现在支持 <a href="https://www.lua.org/pil/20.2.html" target="_blank" rel="noopener noreferrer">Lua 字符模式匹配</a> ,如果答案是<code>模式匹配</code>字符串,那么答案必须用两个<code>/</code>包裹.</li>
+</ul>
+</li>
+</ul>
+<h2 id="内部测试版本" tabindex="-1"> 内部测试版本</h2>
+<h3 id="d104feadc-版本-2021-09-06" tabindex="-1"> d104feadc 版本(2021-09-06)</h3>
+<ul>
+<li>⛔️ 修复: 当改（切换）用户名后，无法更改密码。</li>
+<li>⛔️ Fix falling mesh nodes being half size</li>
+<li>🆕️️ 单机游戏也需要用户名和密码
+<ul>
+<li>和联机游戏使用上保持一致：让在公用电脑上玩单机游戏玩家有自己的存储。</li>
+<li>仅当使用singleplayer用户名（公共用户名）的时候，无需密码。</li>
+</ul>
+</li>
+<li>🆕️️ 启用新的 ZSTD 实时压缩算法</li>
+<li>🆕️️ Joystick sensitivity for player movement</li>
+<li>更新 unified_inventory 模组</li>
+<li>调整用户（学生）界面</li>
+</ul>
+<h3 id="_74e57952f-版本-2021-08-27" tabindex="-1"> 74e57952f 版本(2021-08-27)</h3>
+<ul>
+<li>⛔️ 修复: 游戏世界中的<code>enable_damage</code>以及<code>creative_mode</code>在headless服务器下无效
+<ul>
+<li>发现代码中是用的 <code>g_settings</code> 的设置。而在客户端中能生效是因为每次点击<code>enable_damage</code>设置的时候就同时保存到配置中了（<code>menu_worldmt_legacy</code>）。</li>
+<li>这个是个两难，如果有时候希望开启<code>enable_damage</code>以及<code>creative_mode</code>那么全局就无效了，只能依赖world配置。</li>
+<li>如果存在全局配置，就依全局配置，否则看world配置</li>
+<li>现在的思路（尚未实施）是，如果是游戏配置上有强制设置，那么以游戏配置的设置为准，其次是游戏世界上的强制设置，最后才是全局配置上的强制设置</li>
+<li>原则上只是警告：如果在上游开启强制设置，那么可能因为底层游戏层面不支持而发生问题，所以普通用户最好不要开启强制设置。</li>
+<li>优先级是 系统默认配置 &lt; 游戏配置 &lt; 游戏世界配置 &lt; 全局配置 （强制设置的优先级也是如此）
+<ul>
+<li>普通设置 &lt; 强制设置</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>🆕️️ 当在<code>minetest-game</code>游戏中新建游戏世界时，自动启用默认功能模组。</li>
+<li>增强 <code>quiz</code> 功能模组:
+<ul>
+<li>⛔️ 修复设置: 所有的<code>bool</code>类型的配置都无法设置</li>
+<li>⛔️ 修复设置: 聊天指令 <code>/answer</code> 无法工作</li>
+<li>🆕️️ 新增 <code>forceAdminQuiz</code> 设置: 是否强制管理员也要回答挑战，默认为真。</li>
+<li>🆕️️ 新增 <code>immediateQuiz</code> 设置: 是否要求在进入游戏后立即回答挑战。默认为真。</li>
+</ul>
+</li>
+<li>⛔️ 修复(Android):无法保存“允许远程游戏”,“允许本地游戏”，教师密码，学生密码等设置</li>
+<li>🆕️️ 游戏世界可以有自己的static spawn-point(静态出生点)。
+<ul>
+<li>需要在某个地方加载world.mt然后合并入<code>g_settings</code>,也是说配置优先级为 world.mt &gt; minetest.conf</li>
+</ul>
+</li>
+</ul>
+<h3 id="_8c8b82ec2-版本-2021-08-20" tabindex="-1"> 8c8b82ec2 版本(2021-08-20)</h3>
+<ul>
+<li>⛔️ 修复: 忘记保存配置</li>
+<li>⛔️ 修复（严重）: 当没有选择上一次游戏世界项的时候程序崩溃，无法运行。</li>
+<li>⛔️ 修复（严重）: 无法在老的Android 5.1.1 上运行。</li>
+<li>🆕️️ 新增(settings): readBinaryFile/updateBinaryFile 能够使用压缩格式了</li>
+<li>🆕️️ 新增功能模组(minetest_game)统一物品栏: unified_inventory
+<ul>
+<li><img src="@source/imgs/unified_inventory.png" alt="unified_inventory"></li>
+<li>如果启用<code>minetest_game</code>中原有物品栏将被替换为统一物品栏（默认将在<code>default</code>世界中启用,对已创建的<code>default</code>世界要手动启用）</li>
+</ul>
+</li>
+<li>🆕️️ 新增功能模组(minetest_game)玩家皮肤: skinsdb
+<ul>
+<li><img src="@source/imgs/skinsdb.png" alt="skins db"></li>
+</ul>
+</li>
+<li>🆕️️ 新增功能模组(minetest_game)玩家衣物护甲: 3d_armor
+<ul>
+<li><img src="@source/imgs/3d_armor.png" alt="3D_ARMOR"></li>
+</ul>
+</li>
+<li>🆕️️ 新增功能模组(minetest_game)“基本”材料和物品: basic_materials
+<ul>
+<li>这个模组提供了一小部分“基本”材料和物品，其他模组应该在可能的情况下使用:比如钢筋和链条、电线、塑料条和塑料片等等。 想法是消除从 mod 到 mod 的重复，并减少配方冲突。</li>
+<li><img src="@source/imgs/basic_materials.png" alt="basic_materials"></li>
+</ul>
+</li>
+<li>🆕️️ 新增功能模组(minetest_game)更多矿石: moreores
+<ul>
+<li>添加锡、银和秘银矿石 <img src="@source/imgs/moreores.png" alt="more ores"></li>
+</ul>
+</li>
+<li>🆕️️ 新增功能模组指南针: ccompass 每个指南针可以指向特定的座标。比如家的座标. <img src="@source/imgs/ccompass.gif" alt="ccompass"></li>
+<li>🆕️️ 新增界面背景音乐以及禁音控制(学生界面)</li>
+</ul>
+<h3 id="_570d8a40d-版本-2021-08-14" tabindex="-1"> 570d8a40d 版本(2021-08-14)</h3>
+<ul>
+<li>默认还是启用本地游戏，这样对普通用户更简单点。对于老师和想亲子活动考虑远程游戏。</li>
+<li>⛔️️ 修复: 应该从头开始播放精灵动画 should start sprite animation at the beginning #11510</li>
+<li>⛔️️ 修复: 无法开始本地游戏，如果没有选择游戏世界</li>
+<li>🆕️️可以在世界配置中关闭默认开启的增强功能模组了
+<ul>
+<li>已经安装过老版本的，装新版本后可能需要在世界配置上手工启用默认的功能模组。</li>
+<li>如果不想手工启用，可以删除已经存在<strong>default</strong>世界，然后重新启动软件（它会自动重建<strong>default</strong>世界）即可。</li>
+</ul>
+</li>
+<li>目前默认功能模组如下:
+<ul>
+<li>quiz: 玩家挑战模组
+<ul>
+<li>yaml 玩家挑战模组必需</li>
+<li>formspecs 玩家挑战模组必需</li>
+</ul>
+</li>
+<li>wielded_light: 动态光源功能模组,修复火把拿在手上无法照明的问题。</li>
+<li>handholds_redo: 徒手攀岩功能模组</li>
+<li>🆕️️ fireworkz: 🎆️ 礼花功能模组</li>
+</ul>
+</li>
+<li>🆕️️ 新增功能模组 🎆️ 礼花（fireworkz）,宝贝生日将近，增加这个礼花功能模组活跃下气氛</li>
+<li>🆕️️ 增加游戏教程世界: <strong>tutorial</strong></li>
+</ul>
+<h3 id="b42a46cde-版本-2021-08-11" tabindex="-1"> b42a46cde 版本(2021-08-11)</h3>
+<ul>
+<li>修复（严重错误）: 无法进入远程游戏（报告编码错误）</li>
+<li>修复（严重错误）: 无法更改学生以及教师密码错误（报告无法写入）</li>
+</ul>
+<h3 id="_94abd6a1c-版本-2021-08-06" tabindex="-1"> 94abd6a1c 版本(2021-08-06)</h3>
+<ul>
+<li>修复: should hide game bar when runing game and switch back to student mode.</li>
+<li>修复: 无法更改教师密码</li>
+<li>🆕️️ 增加 cereal 序列化库进行序列化和反序列化。</li>
+</ul>
+<h3 id="_89f5dbc73-版本-2021-07-31" tabindex="-1"> 89f5dbc73 版本(2021-07-31)</h3>
+<ul>
+<li>🆕️️ 用户界面 UI 重制
+<ul>
+<li>🆕️️ 学生用户界面和老师用户界面</li>
+<li>简化主界面，默认为学生界面，当点击教师模式，输入教师密码后恢复minetest的界面。</li>
+</ul>
+</li>
+</ul>
+<h3 id="_62686d9cc-版本-2021-07-24" tabindex="-1"> 62686d9cc 版本(2021-07-24)</h3>
+<ul>
+<li>玩家挑战功能模组：
+<ul>
+<li>修正无法使用 <code>/answer</code> 指令手工调回答问题对话框</li>
+<li>🆕️️ 支持少量<code>MineClone2</code>的物品（使用这些物品无需设置mod了）
+<ul>
+<li>煤块 coalblock</li>
+<li>木头 wood</li>
+<li>石头 stone</li>
+<li>火把 torch</li>
+<li>铁锭 steel_ingot</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/minetest/minetest/pull/11466" target="_blank" rel="noopener noreferrer">在 Android 上使用scoped应用存储</a>
+<ul>
+<li>从 2021 年 11 月起，Play 商店将不再接受使用已弃用的 <code>getExternalStorageDirectory()</code> API 的应用更新。</li>
+<li>因此，此提交使用新的<code>scoped API</code>（<code>getExternalFilesDir()</code> 和 <code>getExternalCacheDir()</code>）替换了已弃用的 API。 它还提供临时迁移，将用户数据从共享的外部目录移动到新存储。</li>
+</ul>
+</li>
+<li><a href="https://github.com/minetest/minetest/pull/11465" target="_blank" rel="noopener noreferrer">增加新的物理重载</a>
+<ul>
+<li>此 PR 向 <code>set_physics_override</code> 添加了以下新字段：</li>
+<li><code>speed_climb</code> ：攀爬速度乘数（基于<code>movement_speed_climb</code>设置）</li>
+<li><code>Liquid_fluidity</code> ：液体流动性乘数（基于<code>movement_liquid_fluidity</code>设置）</li>
+<li><code>Liquid_fluidity_smooth</code>：液体流动平滑参数设置的乘数</li>
+<li><code>Liquid_sink</code> ：液体下沉速度乘数（基于<code>motion_liquid_sink</code>）</li>
+<li><code>acceleration_default</code> ：运动加速度默认值的倍数</li>
+<li><code>acceleration_air</code> ：在空气中的运动加速度的倍数</li>
+</ul>
+</li>
+</ul>
+<h3 id="_6c83884b2-版本-2021-07-18" tabindex="-1"> 6c83884b2 版本(2021-07-18)</h3>
+<ul>
+<li>🆕️️ 玩家挑战功能模组增加设置：
+<ul>
+<li><code>totalPlayTime [&lt;minutes&gt;]</code>: 显示或修改最多游戏时间</li>
+<li><code>restTime [&lt;min&gt;]</code>: 显示或修改至少休息时间</li>
+<li><code>skipAnswered [true|false]</code>: 显示或修改是否跳过已经答对的问题</li>
+<li><code>idleInterval [&lt;minutes&gt;]</code>: 显示或修改回答问题之间的间隔时间</li>
+<li><code>forceAdminRest [true|false]</code>: 显示或修改是否强制管理员也休息</li>
+<li><code>kickDelay [&lt;seconds&gt;]</code>: 显示或修改踢出游戏的延迟</li>
+<li><code>checkInterval [&lt;seconds&gt;]</code>: 显示或修改检查问题的间隔时间，一般不用修改</li>
+</ul>
+</li>
+</ul>
+<h3 id="c583ca122-版本-2021-07-17" tabindex="-1"> c583ca122 版本(2021-07-17)</h3>
+<ul>
+<li>🆕️️ 为Android版本增加中文</li>
+<li>🆕️️ 增加光影效果</li>
+<li>🆕️️ 游戏MineClone2和minetest_game徒手攀岩功能：使用⛏️镐（右键）在岩石上打孔(注意泥土或沙子上无法打孔)，然后就可以攀爬：上下键。</li>
+<li>🆕️️ 为游戏MineClone2和minetest_game增加了游戏时间限制和玩家挑战：
+<ul>
+<li>玩家挑战是在游戏中进行随堂小测验：每5分钟就会出一个题，回答正确才可以继续玩并获得一件奖品。小测验的题目要自己添加。</li>
+<li>在聊天窗口中输入 <code>/quiz list</code> 查看当前的测验问题列表</li>
+<li>在聊天窗口中输入 <code>/quiz del &lt;index|id&gt;</code> 删除指定的问题</li>
+<li><code>/quiz set &lt;Index|Id&gt; title=&quot;问题&quot; answer=&quot;答案&quot; [desc=&quot;提示&quot;]</code> 添加或修改指定的问题</li>
+<li><code>/quiz reset [&lt;playerName&gt;]</code> 重置玩家的游戏时间</li>
+<li><code>/quizAward &lt;list&gt;</code> 列出所有的奖品</li>
+<li><code>/quizAward del &lt;index|id&gt;</code> 删除指定的奖品</li>
+<li><code>/quizAward set &lt;Id&gt; title=&quot;Title&quot; [mod=&quot;default&quot;] [count=&lt;Number&gt;]</code> 添加或修改指定的奖品
+<ul>
+<li>​注意：MineClone2 应该使用mod=&quot;mcl_core&quot; 等（视具体物品而定，default 是 minetest_game的物品）</li>
+</ul>
+</li>
+<li><code>/saveQuiz</code> 保存玩家挑战配置</li>
+</ul>
+</li>
+<li>打包了三个游戏：（未来可能会有调整）
+<ul>
+<li>🆕️️tutorial是游戏教程，教如何玩的</li>
+<li>🆕️️MineClone2是我的世界的复刻版，玩法基本与我的世界一致(有游戏时间限制和挑战)</li>
+<li>minetest_game是基础游戏(有游戏时间限制和挑战)</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>贡献指南</title>
+      <link>https://edu.ihom.app/zh/contribution.html</link>
+      <guid>https://edu.ihom.app/zh/contribution.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">贡献指南</source>
+      <description>我们永远欢迎你对项目进行贡献!
+</description>
+      <category>FAQ</category>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<p>我们永远欢迎你对项目进行贡献!</p>
+
+]]></content:encoded>
+    </item>
+    <item>
+      <title>🔗 有用的链接</title>
+      <link>https://edu.ihom.app/zh/links.html</link>
+      <guid>https://edu.ihom.app/zh/links.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">🔗 有用的链接</source>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>💾 下载</title>
+      <link>https://edu.ihom.app/zh/download/</link>
+      <guid>https://edu.ihom.app/zh/download/</guid>
+      <source url="https://edu.ihom.app/rss.xml">💾 下载</source>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="linux-系统" tabindex="-1"> Linux 系统</h2>
+<h3 id="linux-系统便携版-appimage" tabindex="-1"> Linux 系统便携版(AppImage)</h3>
+<div>
+<p>下载地址</p>
+<ul>
+<li>正式版本 V5.6.1 下载:
+<ul>
+<li>国外: <a href="https://github.com/edu-minetest/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-x86_64.AppImage" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-x86_64.AppImage</a></li>
+<li>国内镜像: <a href="https://gitee.com/mt-edu/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-x86_64.AppImage" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-x86_64.AppImage</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<p>提示</p>
+<p>下载后修改文件的权限为可执行,就直接运行该文件,无需要安装依赖包,但是只能手动配置世界的模组文件,在界面上无法看到已装模组.要在界面上管理模组必须将模组目录复制到<code>~/.minetest/</code>目录下.</p>
+</div>
+<h3 id="linux-系统压缩包" tabindex="-1"> Linux 系统压缩包</h3>
+<div>
+<p>下载地址</p>
+<ul>
+<li>正式版本 V5.6.1 下载:
+<ul>
+<li>国外: <a href="https://github.com/edu-minetest/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-linux.tar.gz" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-linux.tar.gz</a></li>
+<li>国内镜像: <a href="https://gitee.com/mt-edu/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-linux.tar.gz" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-linux.tar.gz</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<p>提示</p>
+<p>下载后按右键解开压缩文件包,运行bin目录下的<code>minetest</code> 🎮 即可(可能需要安装依赖包).</p>
+<ul>
+<li>所需要依赖包:
+<ul>
+<li>libc6</li>
+<li>libcurl3-gnutls</li>
+<li>libfreetype6</li>
+<li>libgl1</li>
+<li>libgmp10</li>
+<li>libjpeg-turbo8</li>
+<li>libjsoncpp25</li>
+<li>libleveldb1d</li>
+<li>libluajit-5.1-2</li>
+<li>libncursesw6</li>
+<li>libopenal1</li>
+<li>libpq5</li>
+<li>libspatialindex6</li>
+<li>libpng16-16</li>
+<li>libsqlite3-0</li>
+<li>libstdc++6</li>
+<li>libvorbisfile3</li>
+<li>libx11-6</li>
+<li>libxxf86vm1</li>
+<li>zlib1g</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="windows-系统便携版" tabindex="-1"> Windows 系统便携版</h2>
+<div>
+<p>下载地址</p>
+<ul>
+<li>正式版本 V5.6.1 下载:
+<ul>
+<li>国外:
+<ul>
+<li><a href="https://github.com/edu-minetest/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-win64.zip" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-win64.zip</a></li>
+<li><a href="https://github.com/edu-minetest/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-win32.zip" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-win32.zip</a></li>
+</ul>
+</li>
+<li>国内镜像:
+<ul>
+<li><a href="https://gitee.com/mt-edu/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-win64.zip" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-win64.zip</a></li>
+<li><a href="https://gitee.com/mt-edu/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-win32.zip" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-win32.zip</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<p>提示</p>
+<p>下载后按右键解开压缩文件包,运行bin目录下的执行文件:<code>minetest.exe</code> 🎮 即可.</p>
+</div>
+<div>
+<p>注意</p>
+<ul>
+<li><strong>已知问题</strong>: 在Windows系统上输入文字,只能使用英文输入法,不能使用任何<strong>中文输入法</strong>输入,否则文字输入不了.</li>
+<li>在Windows系统中输入文字请切换到<strong>英文输入法</strong>.</li>
+<li>BTW:在<code>Android</code>以及<code>Linux</code>(<code>Ubuntu</code>)下输入中文正常。</li>
+</ul>
+</div>
+<h2 id="安卓手机-平板" tabindex="-1"> 安卓手机/平板</h2>
+<div>
+<p>下载地址</p>
+<ul>
+<li>正式版本 V5.6.1 下载:
+<ul>
+<li>国外: <a href="https://github.com/edu-minetest/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-android.apk" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-android.apk</a></li>
+<li>国内镜像: <a href="https://gitee.com/mt-edu/minetest/releases/download/v5.6.1-edu-c35575a00/minetest-5.6.1-edu-c35575a00-android.apk" target="_blank" rel="noopener noreferrer">minetest-5.6.1-edu-c35575a00-android.apk</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<p>提示</p>
+<p>下载后直接安装到手机或平板.</p>
+</div>
+<div>
+<p>提示</p>
+<p>在某些设备上当第一次开始玩(新世界/课程)时会特别的慢,请耐心等待.</p>
+</div>
+<div>
+<p>注意</p>
+<p>游戏操作方式与PC不太相同，请阅读《<a href="/zh/guide/get-started/mobile.html">Android 手机/平板快速上手指南</a>》</p>
+</div>
+<h2 id="源代码地址" tabindex="-1"> 源代码地址</h2>
+<ul>
+<li>Github : https://github.com/edu-minetest/minetest/</li>
+<li>Gitee 镜像: https://gitee.com/mt-edu/minetest/</li>
+</ul>
+<p>本分支(<code>Release</code>)只为发布而设立.</p>
+<p>所实话我并不想建立独立的minetest版本,为了随时能够合并回主分支,采用独立功能分支的方式进行开发.
+<code>Minetest:Edu</code>的主功能分支在:<code>edu/builtin</code>,以及一系列以<code>edu/</code>打头的子功能分支组成.</p>
+<p>分支说明:</p>
+<ul>
+<li><code>edu/builtin</code>: 新增学生界面和教师界面</li>
+<li><code>edu/settings/binary</code>: 新增支持二进制配置文件</li>
+<li><code>edu/drawHeader</code>: 修正drawHeader</li>
+<li><code>edu/static_spawnpoint</code>: 修正出生点问题</li>
+<li><code>edu/android/client-translation</code>: 修正android默认中文问题</li>
+<li><code>feat/singleplayer-user</code>: 支持多用户在单机游戏中</li>
+</ul>
+<h2 id="变更日志" tabindex="-1"> 变更日志</h2>
+<p>目录: <a href="/zh/changelog.html">变更日志</a></p>
+<header><img src="/logo.svg" ><div><h1 id="main-title"><img src="/imgs/title-cn.svg"></h1><p><a href="/zh/guide/" aria-label="💡 快速上手 🎮">💡 快速上手 🎮</a></p></div></header>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>📚 指南</title>
+      <link>https://edu.ihom.app/zh/guide/</link>
+      <guid>https://edu.ihom.app/zh/guide/</guid>
+      <source url="https://edu.ihom.app/rss.xml">📚 指南</source>
+      <category>指南</category>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>❓ 问题与建议</title>
+      <link>https://edu.ihom.app/zh/faq/</link>
+      <guid>https://edu.ihom.app/zh/faq/</guid>
+      <source url="https://edu.ihom.app/rss.xml">❓ 问题与建议</source>
+      <category>FAQ</category>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<p>此处包含了主题使用过程中的常见问题与相应的解决办法。</p>
+<h2 id="常见问题" tabindex="-1"> 常见问题</h2>
+<h3 id="windows-下无法输入" tabindex="-1"> Windows 下无法输入</h3>
+<p>请切换到英文输入法.</p>
+<div>
+<p>注意</p>
+<ul>
+<li><strong>已知问题</strong>: 在Windows系统上输入文字,只能使用英文输入法,不能使用任何<strong>中文输入法</strong>输入,否则文字输入不了.</li>
+<li>在Windows系统中输入文字请切换到<strong>英文输入法</strong>.</li>
+<li>BTW:在<code>Android</code>以及<code>Linux</code>(<code>Ubuntu</code>)下输入中文正常。</li>
+</ul>
+</div>
+<h2 id="联系我们" tabindex="-1"> 联系我们</h2>
+<h3 id="汇报问题或建议" tabindex="-1"> 汇报问题或建议</h3>
+<p>如果你有任何的关于《莽兜世界:教育版》本身的问题或建议，请点击此处,并指出具体细节.</p>
+<ul>
+<li><a href="https://gitee.com/mt-edu/minetest/issues/new?issue" target="_blank" rel="noopener noreferrer">国内:新建问题</a></li>
+<li><a href="https://github.com/edu-minetest/minetest/issues/new/choose" target="_blank" rel="noopener noreferrer">国外:New Issue</a></li>
+</ul>
+<p>必要时，请提供一个 最小复现 Repo<sup></sup> 连接。并提供调试日志. 如果你的问题与显示有关，请同时提供相关截图。</p>
+<h3 id="获得帮助" tabindex="-1"> 获得帮助</h3>
+<div>
+<p>仅限《莽兜世界:教育版》本身</p>
+<ul>
+<li>
+<p>如果你有关于 Lua, CPP 代码 的学习与使用问题，或者你不知道如何写你想要的东西，你可能需要在 相关 论坛、Stack Overflow 等地方提问。</p>
+</li>
+<li>
+<p>如果你有 Minetest 的相关问题，请在 <a href="https://forum.minetest.net" target="_blank" rel="noopener noreferrer">Minetest 论坛</a>提问。</p>
+</li>
+</ul>
+<p>请只在仓库发起 《莽兜世界:教育版》以及与 Riceball LEE 编写的 Quzi 模组的相关讨论。</p>
+</div>
+<ul>
+<li>
+<p>如果有你遇到了使用问题但不知道如何解决，我们也欢迎你在 GitHub 上 <a href="https://github.com/edu-minetest/minetest/discussions/new" target="_blank" rel="noopener noreferrer">新开一个讨论</a>。问题总是受欢迎的，无论<strong>它们是否简单</strong>。你只需要确保三点:</p>
+<ol>
+<li>
+<p>你已经尝试过搜索相关文档。</p>
+</li>
+<li>
+<p>你在讨论中提供了详细的描述。</p>
+<p>如果你不知道如何配置某些内容，请描述你想要的内容、搜索的内容或你希望看到指南的哪个部分 (以便我们改进我们的文档)。</p>
+</li>
+<li>
+<p>你不是在问与 《莽兜世界:教育版》 无关的问题，也不是在寻求“技术支持”。</p>
+<p>我们不提供 “如何自定义某些内容” (如何编写自己的代码) 的相关帮助。 除非你捐赠此项目，否则请不要为该部分寻求帮助。</p>
+<p>作者目前很忙，不想“成为文档提供者”，也不太有时间“教你如何编写代码”。</p>
+</li>
+</ol>
+</li>
+</ul>
+<hr>
+<section>
+<ol>
+<li id="footnote1"><p>最小复现 Repo 的基本思想是使用最少的代码和配置来触发丢失或错误的行为。最小复现 Repo 使开发人员更容易查看错误或缺失功能的位置，并验证新代码是否满足要求。 </p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>💡 快速上手</title>
+      <link>https://edu.ihom.app/zh/guide/get-started/</link>
+      <guid>https://edu.ihom.app/zh/guide/get-started/</guid>
+      <source url="https://edu.ihom.app/rss.xml">💡 快速上手</source>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<div>
+<p>万物皆是方块（积木）</p>
+<p>记住，在<a href="https://zh.m.wikipedia.org/zh-hans/%E9%AB%94%E7%B4%A0" target="_blank" rel="noopener noreferrer">体素</a>世界中，万事万物一切都是由方块（积木）构成。
+所有的方块（积木）都能被“随意”<code>挖掉(破坏)</code>或<code>放置</code>。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>介绍</title>
+      <link>https://edu.ihom.app/zh/guide/get-started/intro.html</link>
+      <guid>https://edu.ihom.app/zh/guide/get-started/intro.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">介绍</source>
+      <category>快速上手</category>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="什么是-《莽兜世界-教育版》" tabindex="-1"> 什么是 《莽兜世界:教育版》</h2>
+<p>《<a href="/">莽兜世界:教育版</a>》是基于<a href="https://minetest.net" target="_blank" rel="noopener noreferrer">Minetest</a>（一款开源体素游戏引擎）打造的互动教育世界应用。</p>
+<h3 id="minetest的互动游戏世界" tabindex="-1"> <a href="https://minetest.net" target="_blank" rel="noopener noreferrer">Minetest</a>的互动游戏世界</h3>
+<p><a href="https://minetest.net" target="_blank" rel="noopener noreferrer">Minetest</a>的“<a href="https://zh.m.wikipedia.org/zh-hans/%E9%AB%94%E7%B4%A0" target="_blank" rel="noopener noreferrer">体素</a>”概念类似于积木（如乐高积木）.在互动世界里你可以用&quot;积木&quot;创建房子、制作工具，而与价格昂贵的乐高积木不同的是，你可以在你的创作里面走动，体验你所创造的“新世界”。</p>
+<div style="text-align:center">
+<p><img src="/imgs/numerica.png" alt="blocks" title="积木块" width="360"> <img src="@source/zh/guide/get-started/sunrise.jpg" alt="sun rise" title="冉冉升日" width="360"></p>
+</div>
+<details><summary>体验你所创造的“新世界”</summary>
+<p>在互动世界里你可以用材料&quot;积木&quot;创建房子，农场，城市，工具和许多其他令人难以置信的创造性的事情。例如，金属矿开采，雕琢成锭，用于制作镐或其他物体不同的金属工具，然后用来建造建筑物,或者其他你可以想象的任何结构。而与成百上千元的乐高积木不同的是，你可以在你的创作里面走动，体验你所创造的新世界。例如，您可以构建和使用梯子，您可以将砂烧制成玻璃块，并将之作成窗户，透过这扇窗，能从你的门廊，看着 Minetest 世界中的方形太阳冉冉升起。</p>
+</details>
+<h3 id="《莽兜世界-教育版》的互动教育世界" tabindex="-1"> 《<a href="/">莽兜世界:教育版</a>》的互动教育世界</h3>
+<div style="text-align:center">
+<IframeVideo src="https://player.bilibili.com/player.html?aid=345934639&bvid=BV1Qd4y1M7PP&cid=842317064&page=1&danmaku=0&high_quality=1" width="80%"></IframeVideo>
+</div>
+<details><summary>放任孩子在游戏世界中玩耍，并不能起到任何教育的作用。</summary>
+<p>孩子在游戏世界的无脑玩法，是让人万万想不到: 从高处跳下自杀（孩子称之为蹦极），复活后，又跑去...这都能玩个不亦乐乎。</p>
+</details>
+<p>家长/老师需要管理游玩的内容，以及控制游玩的时间，并能在游玩的间隙插入一些知识的练习。最好能用最简单的方式编写互动教育世界的课程任务。</p>
+<ul>
+<li><input type="checkbox" id="task-item-0" checked="checked" disabled="disabled"><label for="task-item-0"> 分离游玩界面和游玩世界管理界面</label></li>
+<li><input type="checkbox" id="task-item-1" checked="checked" disabled="disabled"><label for="task-item-1"> 控制游戏时间，保护孩子的眼睛</label></li>
+<li><input type="checkbox" id="task-item-2" checked="checked" disabled="disabled"><label for="task-item-2"> 在游玩的间隙插入练习</label></li>
+<li><input type="checkbox" id="task-item-3" disabled="disabled"><label for="task-item-3"> 文字编写互动教育世界课程(待实现)</label></li>
+</ul>
+<h3 id="与《我的世界-教育版》的比较-🎯" tabindex="-1"> 与《<a href="https://education.minecraft.net/" target="_blank" rel="noopener noreferrer">我的世界:教育版</a>》的比较 🎯</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th><a href="https://education.minecraft.net/" target="_blank" rel="noopener noreferrer">我的世界:教育版</a></th>
+<th>《<a href="/">莽兜世界:教育版</a>》</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">离线</td>
+<td>只能联机使用（进入前必须登陆）</td>
+<td>可以离线运行的软件（无需注册登陆，无网也可用）</td>
+</tr>
+<tr>
+<td style="text-align:left">类型</td>
+<td>收费的商业软件</td>
+<td>自由(免费)的开源软件</td>
+</tr>
+<tr>
+<td style="text-align:left">人群</td>
+<td>只针对教育机构，不对个人开放</td>
+<td>家长/老师均可自由使用</td>
+</tr>
+<tr>
+<td style="text-align:left">课程</td>
+<td>约 700 节的线上课程</td>
+<td>暂无</td>
+</tr>
+<tr>
+<td style="text-align:left">模组</td>
+<td>不支持</td>
+<td>本地内置教育相关模组（数学,科学,自动化,电子电路,编程等）及精选模组</td>
+</tr>
+<tr>
+<td style="text-align:left">独立服务器</td>
+<td>不支持</td>
+<td>可在专业Linux服务器上自架本地网络或互联网游戏服务</td>
+</tr>
+<tr>
+<td style="text-align:left">游戏时间控制</td>
+<td>不支持</td>
+<td>支持控制游戏时间</td>
+</tr>
+<tr>
+<td style="text-align:left">游戏内容管理</td>
+<td>不支持</td>
+<td>支持游戏内容管理</td>
+</tr>
+<tr>
+<td style="text-align:left">穿插练习</td>
+<td>不支持</td>
+<td>支持在游玩的间隙穿插练习</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<ul>
+<li><a href="https://education.minecraft.net/" target="_blank" rel="noopener noreferrer">我的世界:教育版</a>：
+<ul>
+<li>本质是一项联机服务（进入前必须登陆）</li>
+<li>收费的商业软件
+<ul>
+<li>无法对软体本身进行修改或改进</li>
+</ul>
+</li>
+<li>只针对教育机构，不对个人开放（个人必须依托于机构）</li>
+<li>游戏内库中内置了 700 节符合标准的课程（不是本地内置，需要在应用内下载）</li>
+<li>课程编写麻烦：本质上是在游戏内建造</li>
+<li>官方不支持自定义模组</li>
+<li>不支持独立自架本地网络或互联网游戏服务(只能在游戏中提供服务)</li>
+<li>不支持控制游戏时间</li>
+<li>不支持游戏内容管理</li>
+<li>不支持游玩的间隙穿插练习</li>
+</ul>
+</li>
+<li>《<a href="/">莽兜世界:教育版</a>》:
+<ul>
+<li>本质是一可以离线运行的软件（无需注册登陆，无网也可用）</li>
+<li>自由(免费)的开源软件
+<ul>
+<li>在遵循其开源版权许可证(<a href="https://www.gnu.org/licenses/lgpl-3.0.zh-cn.html" target="_blank" rel="noopener noreferrer">LGPL3</a>)书前提下可对软体本身进行修改或改进</li>
+</ul>
+</li>
+<li>家长/老师均可自由使用</li>
+<li>可自由组合的模组架构设计</li>
+<li>本地内置教育相关模组（数学,自动化,电子电路,编程等）及精选模组.</li>
+<li>暂时无课程，需自行创建</li>
+<li>支持在Linux服务器上自架本地网络或互联网游戏服务,进行多人游戏(minetestserver)</li>
+<li>支持控制游戏时间</li>
+<li>支持游戏内容管理</li>
+<li>支持游玩的间隙穿插练习</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://edu.ihom.app/imgs/numerica.png &quot;积木块&quot; =360x" type="image/"/>
+    </item>
+    <item>
+      <title>📱Android手机/平板快速上手指南</title>
+      <link>https://edu.ihom.app/zh/guide/get-started/mobile.html</link>
+      <guid>https://edu.ihom.app/zh/guide/get-started/mobile.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">📱Android手机/平板快速上手指南</source>
+      <category>快速上手</category>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="莽兜世界教育版-android-操作指南" tabindex="-1"> 莽兜世界教育版 Android 操作指南</h2>
+<p>运行后进入学生游戏界面:</p>
+<p><img src="@source/zh/guide/get-started/imgs/mobile-student-cn.png" alt="stu-play"></p>
+<p>然后点击&quot;开始(单人)游戏&quot;按钮,进入游戏.</p>
+<div>
+<p>多人游戏</p>
+<p>要在&quot;教师模式&quot;中启用多人游戏并配置服务器地址后才出现.</p>
+</div>
+<p>进入游戏后,操作方法如下:</p>
+<p><img src="@source/zh/guide/get-started/imgs/minetest_android_keys.webp" alt="minetest_android_keys"></p>
+<p>游戏世界是由不同种类的“方块”组成。游戏世界中所有的方块都可被挖掉(破坏)，当然你也可以在任意位置放置“方块”。</p>
+<p>游戏的基本操作:</p>
+<ol>
+<li>第一人称的角色行走的操作</li>
+<li>对&quot;方块&quot;的挖掉(破坏)及放置操作</li>
+</ol>
+<p>手机上游戏操作与电脑操作是不同的,手机是触摸屏操作,触摸屏操作是从中间分为左右两方。</p>
+<h3 id="屏幕左方" tabindex="-1"> 屏幕左方</h3>
+<p>在左方的任意位置进行推拉就是对角色行走方向控制区(<strong>运动方向控制</strong>虚拟按钮<img src="@source/zh/guide/get-started/imgs/direction.png" alt="Diection">)和<strong>功能菜单</strong>按钮(三个竖排的点<img src="@source/zh/guide/get-started/imgs/three-dot.png" alt="three dot">).</p>
+<ul>
+<li>点击右方的<strong>功能菜单</strong>(竖着的三点) <img src="@source/zh/guide/get-started/imgs/three-dot.png" alt="three dot">:
+<ul>
+<li>聊天气泡图标 <img src="@source/zh/guide/get-started/imgs/chat.png" alt="chat"> - 打开聊天窗口</li>
+<li>九方格图标 <img src="@source/zh/guide/get-started/imgs/inventory.png" alt="Inventory"> - 打开玩家物品装备(合成)栏</li>
+<li>箱子扔到地上图标 <img src="@source/zh/guide/get-started/imgs/drop.png" alt="Drop"> - 点击就会扔掉玩家手上拿着的物品</li>
+</ul>
+</li>
+</ul>
+<h3 id="屏幕右方" tabindex="-1"> 屏幕右方</h3>
+<p>右方是操作区：</p>
+<ul>
+<li>触摸屏幕四处滑动为角色原地旋转调整视线（四处看）</li>
+<li>在屏幕上按住近处的方块（物体）不放,为<strong>挖(掉方块)<strong>或者</strong>打</strong>，等价于鼠标左键</li>
+<li>双击（连击两次）屏幕上的物品（同样都是方块）为互动操作（如开门），等价于鼠标右键</li>
+</ul>
+<p>其它按钮解释如下：</p>
+<ul>
+<li>点击 <strong>配置菜单</strong> <img src="@source/zh/guide/get-started/imgs/gear.png" alt="gear">,就可以看到如下按钮:
+<ul>
+<li>望远镜图标 <img src="@source/zh/guide/get-started/imgs/binocular.png" alt="Binocular"> - 切换视野范围</li>
+<li>眼睛图标 <img src="@source/zh/guide/get-started/imgs/eye.png" alt="Eye"> - 切换玩家视角</li>
+<li>三齿轮图标 <img src="@source/zh/guide/get-started/imgs/three-gear.png" alt="three gear"> - 切换显示调试信息</li>
+<li>飞奔图标 <img src="@source/zh/guide/get-started/imgs/running.png" alt="Running"> - 启用/停止快速移动(需要 &quot;fast&quot; 权限 privilege)</li>
+<li>玩家穿过方块图标 <img src="@source/zh/guide/get-started/imgs/noclip.png" alt="NoClip"> - 启用/停止穿墙(需要 &quot;noclip&quot; 权限 privilege)</li>
+<li>纸飞机图标 <img src="@source/zh/guide/get-started/imgs/fly.png" alt="Fly"> - 启用/停止飞行模式 (需要 &quot;fly&quot; 权限 privilege)</li>
+</ul>
+</li>
+<li><strong>Zoom</strong>: 由游戏决定</li>
+<li><strong>辅助键</strong>(Aux1): 由游戏决定</li>
+<li><strong>上<img src="@source/zh/guide/get-started/imgs/up.png" alt="up">下<img src="@source/zh/guide/get-started/imgs/down.png" alt="down">控制</strong>：爬梯子，游泳，飞行等使用。</li>
+</ul>
+<p>屏幕底部为<strong>快捷(装备)物品栏</strong>：点击就可以切换手上拿的东西(物品/装备)。</p>
+<p><img src="@source/zh/guide/get-started/imgs/inv.png" alt="inventory"></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>🖥 PC(电脑)快速上手指南</title>
+      <link>https://edu.ihom.app/zh/guide/get-started/pc.html</link>
+      <guid>https://edu.ihom.app/zh/guide/get-started/pc.html</guid>
+      <source url="https://edu.ihom.app/rss.xml">🖥 PC(电脑)快速上手指南</source>
+      <category>快速上手</category>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<p>角色运动控制方法:</p>
+<ul>
+<li><img src="@source/imgs/wasd.png" alt="WASD" width="128"> 移动键：<code>W</code>向前;<code>S</code>向后,<code>A</code>向左;<code>D</code>向右移动</li>
+<li>鼠标：
+<ul>
+<li>移动鼠标(上下左右): 角色原地旋转调整视线（四处看）</li>
+<li>鼠标左键: 破坏你选中的方块(挖矿)/生物（击打），以及吃食物；在背包(物品栏)中移动物品</li>
+<li>鼠标右键：与方块互动，打开(比如打开箱子、门或熔炉)或使用, 放置 方块, 移动一件物品或在物品清单中拆分物品放置方块或使用你手中的物品</li>
+<li><code>Shift</code>+鼠标右键: 仅放置块（需要在箱子或熔炉上放置方块时）</li>
+<li>鼠标中键（通常是按下鼠标滚轮）: 移动库存中的10个项目</li>
+<li>鼠标滚轮（前后滚动）: 在<code>装备物品快捷栏</code>中选择物品</li>
+</ul>
+</li>
+<li><code>Shift</code>键：潜行(走得慢一些，但可以防止从方块边缘上掉下来)，向下(飞行,🪜爬楼梯)</li>
+<li><code>空格</code>键: 跳跃(地面上)，向上(飞行,🪜爬楼梯)</li>
+<li><code>Q</code>：丢出手持的物品或工具，扔到地上</li>
+<li><code>1-9</code>：<code>装备物品快捷栏</code>选择物品</li>
+<li><code>I</code>：打开/关闭背包(物品栏)</li>
+<li><code>T</code>: 打开聊天窗口</li>
+<li><code>ESC</code>键: 打开系统菜单，这里可以更改键位，退出游戏</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>🎮 游戏指南</title>
+      <link>https://edu.ihom.app/zh/guide/play/</link>
+      <guid>https://edu.ihom.app/zh/guide/play/</guid>
+      <source url="https://edu.ihom.app/rss.xml">🎮 游戏指南</source>
+      <category>指南</category>
+      <category>游戏</category>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<div>
+<p>提示</p>
+<p>如果对游戏操作不清楚，请先阅读<a href="/zh/guide/get-started/">快速上手指南</a>。</p>
+</div>
+<div style="text-align:center">
+<IframeVideo src="https://player.bilibili.com/player.html?aid=430880353&bvid=BV1zG411g7Rj&cid=842330886&page=1&danmaku=0&high_quality=1" width="80%"></IframeVideo>
+</div>
+<h2 id="给自己取一个在游戏世界中的名字" tabindex="-1"> 给自己取一个在游戏世界中的名字</h2>
+<p>运行应用,进入后,看到如下界面,在&quot;名称&quot;下面输入自己的名字即可,如果是多人游戏,那么可以点击<code>密码</code>按钮,输入自己的密码(该密码会被加密保存,不用再次输入).</p>
+<div>
+<p>注意</p>
+<p>名称只能是英文半角字符,不能是中文. 你可以用英文或拼音.</p>
+</div>
+<div>
+<p>注意</p>
+<ul>
+<li><strong>已知问题</strong>: 在Windows系统上输入文字,只能使用英文输入法,不能使用任何<strong>中文输入法</strong>输入,否则文字输入不了.</li>
+<li>在Windows系统中输入文字请切换到<strong>英文输入法</strong>.</li>
+<li>BTW:在<code>Android</code>以及<code>Linux</code>(<code>Ubuntu</code>)下输入中文正常。</li>
+</ul>
+</div>
+<p><img src="/imgs/play-cn.png" alt="play-cn"></p>
+<h2 id="开始游戏" tabindex="-1"> 开始游戏</h2>
+<p>然后点击&quot;<code>开始(单人)游戏</code>&quot;按钮,即可开始游戏.
+如果想玩<code>多人游戏</code>,那么必须进入<a href="/zh/guide/teacher/outgame-man/#%E6%95%99%E5%B8%88%E6%A8%A1%E5%BC%8F">教师模式配置</a>.</p>
+<div>
+<p>提示</p>
+<p>如果没有任何配置，那么系统默认运行游戏就是开启伤害的<a href="/zh/guide/play/survival/">生存模式</a>。</p>
+</div>
+<p>如果孩子比较小(&lt;10岁)，那么建议从<a href="/zh/guide/play/creative/">创造模式</a>开始，并且不要开启伤害。如果孩子富有冒险精神，那么不妨尝试<a href="/zh/guide/play/survival/">生存模式</a>。</p>
+<p><a href="/zh/guide/play/survival/">生存模式</a>可以便于较小的孩子理解石器时代为什么需要房屋，火把以及神话传说的由来。</p>
+<div>
+<p>提示</p>
+<p>如何开启<a href="/zh/guide/play/creative/">创造模式</a>以及关闭伤害,请参阅《<a href="/zh/guide/teacher/">家长/教师指南</a>》。</p>
+</div>
+]]></content:encoded>
+      <enclosure url="https://edu.ihom.app/imgs/play-cn.png" type="image/png"/>
+    </item>
+    <item>
+      <title>🧑‍🏫 家长/教师指南</title>
+      <link>https://edu.ihom.app/zh/guide/teacher/</link>
+      <guid>https://edu.ihom.app/zh/guide/teacher/</guid>
+      <source url="https://edu.ihom.app/rss.xml">🧑‍🏫 家长/教师指南</source>
+      <pubDate>Mon, 22 Aug 2022 02:41:56 GMT</pubDate>
+      <content:encoded><![CDATA[<p>管理可分为<code>游戏外管理</code>和<code>游戏内管理</code>,<code>游戏外管理</code>是通过进入<code>教师模式</code>进行的,在<code>教师模式</code>下可以对孩子的游戏课程内容进行管理以及主持多人游戏.
+而在<code>游戏内的管理</code>则是指运行游戏时的管理,比如赋予/收回玩家的权限(飞行,聊天,以及各类模组的独有权限...),对游戏时间管理以及在游玩的间隙穿插练习也是通过功能模组<a href="../mods/quiz">Quiz 玩家挑战</a>在游戏内实现的。</p>
+<h2 id="基础概念" tabindex="-1"> 基础概念</h2>
+<ul>
+<li>
+<p>子游戏(Sub Game): 简单的说，是将一系列的功能<code>模组</code>组合在一起,再加上一些订制的规则，从而让Minetest拥有沙盒、解谜、动作等不同游戏类型。</p>
+<ul>
+<li>教育版采用的是官方的<a href="https://github.com/minetest/minetest_game" target="_blank" rel="noopener noreferrer">minetest_game</a>基本游戏为基础，这是个完全和平的世界，没有任何动物，是许多生态系组成的大自然，但是无论多老的设备也能跑，故用于教育版课程。</li>
+</ul>
+</li>
+<li>
+<p>材质包(Texture Pack): 用于改变游戏内的方块、物品以及生物等的外观</p>
+</li>
+<li>
+<p>模组(Mod): Mod 是<code>修改(modifications)</code>或<code>模块(modules)</code>的缩写,用于添加或更改游戏玩法</p>
+<div>
+<p>请谨慎安装模组(Mod)</p>
+<p>编写得不好的模组会引起游戏/服务器崩溃</p>
+</div>
+</li>
+<li>
+<p>模组包(Modpack): 一个modpack（简称：“ MP”）是将mod组合在一起的一组mod。基本上，modpack只是包含实际mod目录的特殊目录。</p>
+</li>
+</ul>
+<h2 id="游戏外管理" tabindex="-1"> <a href="./outgame-man">游戏外管理</a></h2>
+<div>
+<p>提示</p>
+<p>运行后,点击&quot;教师模式&quot;,输入密码后进入管理界面.
+<a href="./outgame-man"><img src="@source/imgs/pc-stu.png" alt="pc"></a></p>
+</div>
+<div>
+<p>提示</p>
+<p>提示默认管理密码为 <code>double seven, double eight and double nine</code>
+请自行转为数字</p>
+</div>
+<h2 id="游戏内管理" tabindex="-1"> <a href="./ingame-man">游戏内管理</a></h2>
+<div>
+<p>提示</p>
+<p>在游戏内,可以对玩家以及玩家的权限进行管理.
+<a href="./ingame-man"><img src="/imgs/pc-light.png" alt="pc"></a></p>
+</div>
+<h2 id="应用目录简介" tabindex="-1"> 应用目录简介</h2>
+<div><pre><code><span>|</span>-bin<span>\</span>               <span># 应用程序所在目录</span>
+   <span>|</span>- minetest.exe   <span># Windows下的莽兜世界应用执行程序</span>
+   <span>|</span>- minetest       <span># Linux下的莽兜世界应用执行程序</span>
+   <span>|</span>- minetestserver <span># Linux下的莽兜世界独立服务器执行程序</span>
+<span>|</span>-mods<span>\</span>              <span># 功能模组所在目录</span>
+<span>|</span>-games<span>\</span>             <span># 子游戏所在目录</span>
+   <span>|</span>-minetest_game<span>\</span>  <span># Minetest官方基础子游戏</span>
+   <span>|</span>-MineClone2<span>\</span>     <span># 我的世界重制版 子游戏</span>
+   <span>|</span>-tutorial<span>\</span>       <span># Minetest 的简单教程 子游戏</span>
+<span>|</span>-worlds<span>\</span>            <span># 游戏世界(课程)所在目录</span>
+   <span>|</span>-default<span>\</span>        <span># 默认世界(课程)，当第一次启动后自动创建</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
