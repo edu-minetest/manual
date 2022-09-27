@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "mtEduManual",
+    "productName": "Minetest Education Edition Manual",
     "version": "5.6.1"
   },
   "tauri": {
@@ -30,7 +30,7 @@
         "icons/icon.ico"
       ],
       "identifier": "app.ihom.edu.manual",
-      "longDescription": "",
+      "longDescription": "The https://edu.ihom.app on local",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
