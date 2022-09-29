@@ -4,6 +4,7 @@
 )]
 
 use sys_locale::get_locale;
+use tauri::{WindowBuilder, WindowUrl};
 
 // const invoke = window.__TAURI__.invoke
 // const currentLang = await invoke("lang")
@@ -23,6 +24,29 @@ fn greet(name: &str) -> String {
 
 fn main() {
     tauri::Builder::default()
+    .setup(|app| {
+            // #[cfg(debug_assertions)]
+            // app.get_window("main").unwrap().open_devtools();
+
+            // 只对 for Windows and Mac 有效
+            // https://github.com/tauri-apps/tauri/issues/1522
+            WindowBuilder::new(app, "second", WindowUrl::App("index.html".into()))
+            .on_web_resource_request(|req, resp| {
+                if req.uri().starts_with("tauri://") {
+                resp.headers_mut().insert(
+                    "Cross-Origin-Opener-Policy",
+                    "same-origin".try_into().unwrap(),
+                );
+                resp.headers_mut().insert(
+                    "Cross-Origin-Embedder-Policy",
+                    "require-corp".try_into().unwrap(),
+                );
+                println!("headers inserted");
+                }
+            })
+            .build()?;
+            Ok(())
+        })
         .invoke_handler(tauri::generate_handler![greet, lang])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
