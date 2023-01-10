@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Minetest:Education Edition",
+  "home_page_url": "https://edu.ihom.app/en/",
+  "feed_url": "https://edu.ihom.app/feed.json",
+  "description": "An open source brick-style sandbox interactive educational game world✨",
+  "items": [
+    {
+      "title": "🔗 Useful Links",
+      "url": "https://edu.ihom.app/en/links.html",
+      "id": "https://edu.ihom.app/en/links.html",
+      "content_html": "",
+      "date_published": "2022-09-01T13:39:33.000Z",
+      "date_modified": "2022-09-01T13:39:33.000Z",
+      "authors": [],
+      "tags": []
+    }
+  ]
+}

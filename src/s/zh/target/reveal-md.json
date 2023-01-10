@@ -1,0 +1,6 @@
+{
+  "scripts": [
+    "plugin/audio-slideshow/plugin.js",
+    "plugins.js"
+  ]
+}
