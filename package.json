@@ -20,7 +20,7 @@
     "ci": "cp -r src dist"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1.1.0",
-    "@tauri-apps/cli": "^1.1.1"
+    "@tauri-apps/api": "^1.2.0",
+    "@tauri-apps/cli": "^1.2.3"
   }
 }
