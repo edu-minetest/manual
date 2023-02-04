@@ -18,6 +18,9 @@
       "active": true,
       "category": "Education",
       "copyright": "Riceball LEE<snowyu.lee@gmail.com>",
+      "appimage": {
+        "bundleMediaFramework": true
+      },
       "deb": {
         "depends": []
       },
