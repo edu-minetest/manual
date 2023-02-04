@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://edu.ihom.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <title></title>
+    <link>https://edu.ihom.app/</link>
+    <description></description>
+    <language>en-US</language>
+    <pubDate>Sat, 04 Feb 2023 12:15:26 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2023 12:15:26 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+  </channel>
+</rss>

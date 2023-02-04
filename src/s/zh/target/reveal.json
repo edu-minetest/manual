@@ -1,0 +1,8 @@
+{
+  "audio": {
+    "textToSpeechURL": "http://api.voicerss.org/?key=[YOUR_KEY]&hl=zh-cn&v=Chow&c=ogg&src=",
+    "defaultNotes": true,
+    "autoplay": false,
+    "defaultDuration": 15
+  }
+}
