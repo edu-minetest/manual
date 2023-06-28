@@ -12,7 +12,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [macos-10.15, ubuntu-20.04, windows-latest]
+        # macos-10.15 stuck on: Waiting for a runner to pick up this job...
+        platform: [ubuntu-20.04, windows-latest]
     runs-on: ${{ matrix.platform }}
     steps:
       - name: Checkout repository
