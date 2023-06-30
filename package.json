@@ -9,9 +9,6 @@
     "email": "riceballl@hotmail.com",
     "url": "https://riceball.me"
   },
-  "workspaces": [
-    "packages/site-shared"
-  ],
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",
@@ -20,7 +17,7 @@
     "ci": "cp -r src dist"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1.2.0",
-    "@tauri-apps/cli": "^1.2.3"
+    "@tauri-apps/api": "^1.4.0",
+    "@tauri-apps/cli": "^1.4.0"
   }
 }

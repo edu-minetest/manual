@@ -11,13 +11,13 @@ rust-version = "1.67"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
-tauri-build = { version = "1.2", features = [] }
+tauri-build = { version = "1.4", features = [] }
 
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
-tauri = { version = "1.2", features = ["api-all", "devtools"] }
-sys-locale = "0.2.3"
+tauri = { version = "1.4", features = ["api-all", "devtools"] }
+sys-locale = "0.3.0"
 tauri-plugin-localhost = "0.1.0"
 portpicker = "0.1.1"
 
