@@ -48,6 +48,20 @@ fn main() {
     tauri::Builder::default()
         .plugin(tauri_plugin_localhost::Builder::new(port).build())
         .invoke_handler(tauri::generate_handler![greet, lang])
+        // .setup(move |app| {
+        //     WindowBuilder::new(
+        //         app,
+        //         "main".to_string(),
+        //         if cfg!(dev) {
+        //         Default::default()
+        //         } else {
+        //         window_url
+        //         }
+        //     )
+        //     .title("Localhost Example")
+        //     .build()?;
+        //     Ok(())
+        // })
         .run(context)
         .expect("error while running tauri application");
 }
